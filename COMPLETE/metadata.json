@@ -1,5 +1,289 @@
 {
-    "aggregateDataExchanges": [],
+    "aggregateDataExchanges": [
+        {
+            "attributeValues": [],
+            "code": "NCD_HDM_ADEX_HTN_DM_CURRENT_PERIOD",
+            "id": "tQ3bUoFoaSI",
+            "name": "ADEX - HTN DM - Current period",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "source": {
+                "requests": [
+                    {
+                        "dx": [
+                            "JycuigrwOA0",
+                            "w1OIAqhocAx",
+                            "lsUw32leiJX",
+                            "EWpkCPCuJf3",
+                            "bLiMzdg6ZHz",
+                            "ApG3MF1VmOL",
+                            "kqKZiGQ5DW6",
+                            "HEhrrdabdGQ",
+                            "AoqqjFOJGmS",
+                            "Sf86A1bYyMq"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "HTN Monthly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "THIS_MONTH"
+                        ],
+                        "visualization": "vwUlqME0Hfw"
+                    },
+                    {
+                        "dx": [
+                            "oViVMFZbHsC",
+                            "qi9pE262Xhm",
+                            "M4XY1lxHewG",
+                            "ZOEEN8WKTFa"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "HTN Quarterly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "THIS_QUARTER"
+                        ]
+                    },
+                    {
+                        "dx": [
+                            "rjBIKw5Ydpb",
+                            "fNGOfOPo2p6",
+                            "rc9nx31qyTL",
+                            "rrWB0we6eFL",
+                            "KDBhJiMyq19",
+                            "i1b1YVeexfC",
+                            "GuVvSdUEUjS",
+                            "thoTnZfrjsP",
+                            "vP3OrhwjMHp",
+                            "VfiZtajVST3",
+                            "zTLkufz2LHb",
+                            "zD508XWfDis",
+                            "lMwCpljoplx",
+                            "gcF8RPHPzrG",
+                            "MKyqwBAX8eo",
+                            "BzaVlQtRZeq",
+                            "wZDavE471pe"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "DM Monthly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "THIS_MONTH"
+                        ]
+                    },
+                    {
+                        "dx": [
+                            "gCkPPFQvWVT",
+                            "iJOng6lGYE6",
+                            "GEzyNBxdmeD",
+                            "SMtCq1z3HbK"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "DM Quarterly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "THIS_QUARTER"
+                        ]
+                    }
+                ]
+            },
+            "target": {
+                "request": {
+                    "categoryOptionComboIdScheme": "UID",
+                    "dataElementIdScheme": "UID",
+                    "idScheme": "UID",
+                    "orgUnitIdScheme": "UID"
+                },
+                "type": "INTERNAL"
+            },
+            "translations": []
+        },
+        {
+            "attributeValues": [],
+            "code": "NCD_HDM_ADEX_HTN_DM_PREVIOUS_PERIODS",
+            "id": "ty6LYIC2aE5",
+            "name": "ADEX - HTN DM - Previous periods",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "source": {
+                "requests": [
+                    {
+                        "dx": [
+                            "JycuigrwOA0",
+                            "w1OIAqhocAx",
+                            "lsUw32leiJX",
+                            "EWpkCPCuJf3",
+                            "bLiMzdg6ZHz",
+                            "ApG3MF1VmOL",
+                            "kqKZiGQ5DW6",
+                            "HEhrrdabdGQ",
+                            "AoqqjFOJGmS",
+                            "Sf86A1bYyMq"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "HTN Monthly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "LAST_12_MONTHS"
+                        ]
+                    },
+                    {
+                        "dx": [
+                            "oViVMFZbHsC",
+                            "qi9pE262Xhm",
+                            "M4XY1lxHewG",
+                            "ZOEEN8WKTFa"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "HTN Quarterly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "LAST_4_QUARTERS"
+                        ]
+                    },
+                    {
+                        "dx": [
+                            "rjBIKw5Ydpb",
+                            "fNGOfOPo2p6",
+                            "rc9nx31qyTL",
+                            "rrWB0we6eFL",
+                            "i1b1YVeexfC",
+                            "KDBhJiMyq19",
+                            "GuVvSdUEUjS",
+                            "thoTnZfrjsP",
+                            "vP3OrhwjMHp",
+                            "zTLkufz2LHb",
+                            "VfiZtajVST3",
+                            "zD508XWfDis",
+                            "lMwCpljoplx",
+                            "MKyqwBAX8eo",
+                            "BzaVlQtRZeq",
+                            "wZDavE471pe",
+                            "gcF8RPHPzrG"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "DM Monthly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputDataItemIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "LAST_12_MONTHS"
+                        ]
+                    },
+                    {
+                        "dx": [
+                            "gCkPPFQvWVT",
+                            "iJOng6lGYE6",
+                            "GEzyNBxdmeD",
+                            "SMtCq1z3HbK"
+                        ],
+                        "filters": [],
+                        "inputIdScheme": "UID",
+                        "name": "DM Quarterly indicators",
+                        "ou": [
+                            "LEVEL-vFr4zVw6Avn"
+                        ],
+                        "outputDataElementIdScheme": "UID",
+                        "outputIdScheme": "UID",
+                        "outputOrgUnitIdScheme": "UID",
+                        "pe": [
+                            "LAST_4_QUARTERS"
+                        ]
+                    }
+                ]
+            },
+            "target": {
+                "request": {
+                    "categoryOptionComboIdScheme": "UID",
+                    "dataElementIdScheme": "UID",
+                    "idScheme": "UID",
+                    "orgUnitIdScheme": "UID"
+                },
+                "type": "INTERNAL"
+            },
+            "translations": []
+        }
+    ],
     "attributes": [
         {
             "categoryAttribute": false,
@@ -4286,7 +4570,16 @@
             "code": "NCD_HDM_REGISTRY",
             "dataElements": [
                 {
+                    "id": "ersfDTtRmwa"
+                },
+                {
+                    "id": "zpLOGIEKRgU"
+                },
+                {
                     "id": "WW5l5hS2JvI"
+                },
+                {
+                    "id": "VWEpiY9pWia"
                 },
                 {
                     "id": "Xkdjv0TpxBu"
@@ -4295,10 +4588,19 @@
                     "id": "qj1icHDw83W"
                 },
                 {
+                    "id": "yUYbcCXo9Mv"
+                },
+                {
                     "id": "gSDfAwhzLxm"
                 },
                 {
                     "id": "oYNi8TgIFTm"
+                },
+                {
+                    "id": "D8FWXAtCuL2"
+                },
+                {
+                    "id": "vdh990I4zq1"
                 },
                 {
                     "id": "Y72gWULmJGT"
@@ -4310,7 +4612,25 @@
                     "id": "mJv7u3C8w46"
                 },
                 {
+                    "id": "ao1214Ogahb"
+                },
+                {
+                    "id": "HXqTCEzwwWz"
+                },
+                {
+                    "id": "joYVieLjxKQ"
+                },
+                {
+                    "id": "fbRyJBZGHTI"
+                },
+                {
                     "id": "v7nC8vSTzwh"
+                },
+                {
+                    "id": "LktTflPfk1z"
+                },
+                {
+                    "id": "vY1DeFo6AcP"
                 },
                 {
                     "id": "WqQj6pPMAkV"
@@ -4328,6 +4648,9 @@
                     "id": "MZkqsWH2KSe"
                 },
                 {
+                    "id": "aRo6Gr17jXJ"
+                },
+                {
                     "id": "OK618gsZT2x"
                 },
                 {
@@ -4343,7 +4666,13 @@
                     "id": "drY9ZQ0PEEw"
                 },
                 {
+                    "id": "lRY6tKmJN4K"
+                },
+                {
                     "id": "UxuWtQQ4Gs1"
+                },
+                {
+                    "id": "tYPFFIxHwj4"
                 },
                 {
                     "id": "WqkLLu6UwLy"
@@ -4358,6 +4687,9 @@
                     "id": "lWmOLo5hFYQ"
                 },
                 {
+                    "id": "WQfxibygUCL"
+                },
+                {
                     "id": "q362A7evMYt"
                 },
                 {
@@ -4367,16 +4699,37 @@
                     "id": "lEReGEQfhtn"
                 },
                 {
+                    "id": "gsiOBH9eKzb"
+                },
+                {
+                    "id": "MGWnzMBSVAC"
+                },
+                {
                     "id": "IxEwYiq1FTq"
+                },
+                {
+                    "id": "X0pBiQ6SN5O"
+                },
+                {
+                    "id": "wRUfpNGwBQB"
                 },
                 {
                     "id": "CyhqB3L1Vo8"
                 },
                 {
+                    "id": "ifRI6qw96v4"
+                },
+                {
                     "id": "OFpr4x21rwc"
                 },
                 {
+                    "id": "yNhtHKtKkO1"
+                },
+                {
                     "id": "xZ07XCMF85u"
+                },
+                {
+                    "id": "N69Wu2mzoFk"
                 },
                 {
                     "id": "eGY7e5Ttbys"
@@ -4386,105 +4739,6 @@
                 },
                 {
                     "id": "JZlJfx3oihw"
-                },
-                {
-                    "id": "OhgHrhV8MGZ"
-                },
-                {
-                    "id": "KSp7mw1dU30"
-                },
-                {
-                    "id": "xRDI8grTMBO"
-                },
-                {
-                    "id": "PNZzRdOuXeN"
-                },
-                {
-                    "id": "wiUtvIfdc6r"
-                },
-                {
-                    "id": "RlOqetcLzMF"
-                },
-                {
-                    "id": "UCzcgZfL9Pw"
-                },
-                {
-                    "id": "vi3OXLNK0P4"
-                },
-                {
-                    "id": "vkNaWzBCogk"
-                },
-                {
-                    "id": "xAjCjRXyGGS"
-                },
-                {
-                    "id": "ersfDTtRmwa"
-                },
-                {
-                    "id": "zpLOGIEKRgU"
-                },
-                {
-                    "id": "VWEpiY9pWia"
-                },
-                {
-                    "id": "yUYbcCXo9Mv"
-                },
-                {
-                    "id": "D8FWXAtCuL2"
-                },
-                {
-                    "id": "vdh990I4zq1"
-                },
-                {
-                    "id": "ao1214Ogahb"
-                },
-                {
-                    "id": "HXqTCEzwwWz"
-                },
-                {
-                    "id": "joYVieLjxKQ"
-                },
-                {
-                    "id": "fbRyJBZGHTI"
-                },
-                {
-                    "id": "LktTflPfk1z"
-                },
-                {
-                    "id": "vY1DeFo6AcP"
-                },
-                {
-                    "id": "aRo6Gr17jXJ"
-                },
-                {
-                    "id": "lRY6tKmJN4K"
-                },
-                {
-                    "id": "tYPFFIxHwj4"
-                },
-                {
-                    "id": "WQfxibygUCL"
-                },
-                {
-                    "id": "gsiOBH9eKzb"
-                },
-                {
-                    "id": "MGWnzMBSVAC"
-                },
-                {
-                    "id": "X0pBiQ6SN5O"
-                },
-                {
-                    "id": "wRUfpNGwBQB"
-                },
-                {
-                    "id": "ifRI6qw96v4"
-                },
-                {
-                    "id": "yNhtHKtKkO1"
-                },
-                {
-                    "id": "N69Wu2mzoFk"
                 },
                 {
                     "id": "KqlSVrPARhH"
@@ -4499,10 +4753,22 @@
                     "id": "Ar77Gso4XEb"
                 },
                 {
+                    "id": "OhgHrhV8MGZ"
+                },
+                {
+                    "id": "KSp7mw1dU30"
+                },
+                {
+                    "id": "xRDI8grTMBO"
+                },
+                {
                     "id": "cE3KOFmoYbZ"
                 },
                 {
                     "id": "JftDO8AfOWl"
+                },
+                {
+                    "id": "PNZzRdOuXeN"
                 },
                 {
                     "id": "IAN26jYXb2N"
@@ -4512,6 +4778,12 @@
                 },
                 {
                     "id": "n6k7wJQ1daN"
+                },
+                {
+                    "id": "wiUtvIfdc6r"
+                },
+                {
+                    "id": "RlOqetcLzMF"
                 },
                 {
                     "id": "KXgYGZRacnQ"
@@ -4524,6 +4796,18 @@
                 },
                 {
                     "id": "KhPN2jLt52I"
+                },
+                {
+                    "id": "UCzcgZfL9Pw"
+                },
+                {
+                    "id": "vi3OXLNK0P4"
+                },
+                {
+                    "id": "vkNaWzBCogk"
+                },
+                {
+                    "id": "xAjCjRXyGGS"
                 },
                 {
                     "id": "Ulw2Cb213Du"
@@ -4561,6 +4845,43 @@
         }
     ],
     "dataElements": [
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "DXecJGIGvla"
+            },
+            "description": "Patients with Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%)",
+            "domainType": "AGGREGATE",
+            "formName": "Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%)",
+            "id": "KXgYGZRacnQ",
+            "legendSets": [],
+            "name": "DM - Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%) and registered before the past 3 months",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Blood sugar controlled 3 months",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
+        },
         {
             "aggregationLevels": [],
             "aggregationType": "SUM",
@@ -4811,45 +5132,6 @@
             "shortName": "Common blood sugar",
             "translations": [],
             "valueType": "NUMBER",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "domainType": "TRACKER",
-            "formName": "Assessments for complications",
-            "id": "vkNaWzBCogk",
-            "legendSets": [],
-            "name": "DM - Complications assessment",
-            "optionSet": {
-                "id": "JDEPVZWgSVX"
-            },
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "DM complications exam",
-            "translations": [],
-            "valueType": "MULTI_TEXT",
             "zeroIsSignificant": false
         },
         {
@@ -5957,6 +6239,43 @@
         },
         {
             "aggregationLevels": [],
+            "aggregationType": "AVERAGE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "description": "Note: Random blood sugar varies significantly. Only FBS and HbA1c measures will be counted towards blood sugar control rate indicators. If possible, request a follow up visit to confirm with fasting blood sugar.",
+            "domainType": "TRACKER",
+            "formName": "Random blood sugar reading (RBS)",
+            "id": "n6k7wJQ1daN",
+            "legendSets": [],
+            "name": "HTN - Blood sugar reading: RBS (mmol/L)",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Blood sugar reading: RBS (mmol/L)",
+            "translations": [],
+            "valueType": "NUMBER",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
             "aggregationType": "NONE",
             "attributeValues": [],
             "categoryCombo": {
@@ -6065,6 +6384,42 @@
             "translations": [],
             "valueType": "TEXT",
             "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "VkQPxB6VdoG"
+            },
+            "description": "Patients with a scheduled visit that is in the past with no visit on the 1st of the month.\nExcludes patients with no phone number.",
+            "domainType": "AGGREGATE",
+            "id": "iRgb6hOfzEk",
+            "legendSets": [],
+            "name": "HTN - Contactable patients that are overdue at the start of the month",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Contactable overdue patients start of month",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": true
         },
         {
             "aggregationLevels": [
@@ -6261,44 +6616,6 @@
             "zeroIsSignificant": false
         },
         {
-            "aggregationLevels": [
-                5
-            ],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "VkQPxB6VdoG"
-            },
-            "domainType": "AGGREGATE",
-            "formName": "Monthly registrations",
-            "id": "UCzcgZfL9Pw",
-            "legendSets": [],
-            "name": "HTN - Monthly registrations",
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Monthly registrations",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
-        {
             "aggregationLevels": [],
             "aggregationType": "NONE",
             "attributeValues": [],
@@ -6442,6 +6759,45 @@
             "translations": [],
             "valueType": "INTEGER_ZERO_OR_POSITIVE",
             "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [
+                5
+            ],
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "description": "Registered HTN patients who died this month. Used for removing deaths from cumulative patients.",
+            "domainType": "AGGREGATE",
+            "formName": "Registered patients who died this month",
+            "id": "wOzeBad0fcs",
+            "legendSets": [],
+            "name": "HTN - Patient deaths this period",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "HTN deaths this period",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": false
         },
         {
             "aggregationLevels": [],
@@ -7241,82 +7597,6 @@
         },
         {
             "aggregationLevels": [],
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "code": "NCD_VALID_BP_DATE",
-            "description": "Auto-calculated. Visit date when both systolic and diastolic BP were recorded. Used by program indicators to find the latest valid BP reading (HEARTS 'BP visit').",
-            "domainType": "TRACKER",
-            "formName": "Valid BP reading date",
-            "id": "xAjCjRXyGGS",
-            "legendSets": [],
-            "name": "NCD - Valid BP reading date",
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Valid BP reading date",
-            "translations": [],
-            "valueType": "DATE",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "AVERAGE_SUM_ORG_UNIT",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "DXecJGIGvla"
-            },
-            "code": "NCD_SCR_EST_POP_DM_ANNUAL",
-            "description": "Annual estimate of adults with diabetes in the catchment population, by age group and sex. Derived from the STEPS community survey (adults only, so 0-17 years is left blank). Denominator of the DM treatment cascade.",
-            "domainType": "AGGREGATE",
-            "formName": "Estimated adults with diabetes (annual)",
-            "id": "vi3OXLNK0P4",
-            "legendSets": [],
-            "name": "SCR - Estimated population with DM (annual)",
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Est pop with DM (annual)",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
             "aggregationType": "AVERAGE_SUM_ORG_UNIT",
             "attributeValues": [],
             "categoryCombo": {
@@ -7355,17 +7635,19 @@
         },
         {
             "aggregationLevels": [],
-            "aggregationType": "SUM",
+            "aggregationType": "NONE",
             "attributeValues": [],
             "categoryCombo": {
-                "id": "DXecJGIGvla"
+                "id": "bjDvmb4bfuf"
             },
-            "description": "Patients with Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%)",
-            "domainType": "AGGREGATE",
-            "formName": "Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%)",
-            "id": "KXgYGZRacnQ",
+            "domainType": "TRACKER",
+            "formName": "Assessments for complications",
+            "id": "vkNaWzBCogk",
             "legendSets": [],
-            "name": "DM - Blood sugar controlled at latest visit in past 3 months (FBS <126 mg/dL or HbA1c <7%) and registered before the past 3 months",
+            "name": "DM - Complications assessment",
+            "optionSet": {
+                "id": "JDEPVZWgSVX"
+            },
             "sharing": {
                 "owner": "vUeLeQMSwhN",
                 "public": "r-------",
@@ -7385,10 +7667,10 @@
                 },
                 "users": {}
             },
-            "shortName": "Blood sugar controlled 3 months",
+            "shortName": "DM complications exam",
             "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
+            "valueType": "MULTI_TEXT",
+            "zeroIsSignificant": false
         },
         {
             "aggregationLevels": [],
@@ -7500,93 +7782,19 @@
             "zeroIsSignificant": false
         },
         {
-            "aggregationLevels": [],
-            "aggregationType": "AVERAGE",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "bjDvmb4bfuf"
-            },
-            "description": "Note: Random blood sugar varies significantly. Only FBS and HbA1c measures will be counted towards blood sugar control rate indicators. If possible, request a follow up visit to confirm with fasting blood sugar.",
-            "domainType": "TRACKER",
-            "formName": "Random blood sugar reading (RBS)",
-            "id": "n6k7wJQ1daN",
-            "legendSets": [],
-            "name": "HTN - Blood sugar reading: RBS (mmol/L)",
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Blood sugar reading: RBS (mmol/L)",
-            "translations": [],
-            "valueType": "NUMBER",
-            "zeroIsSignificant": false
-        },
-        {
-            "aggregationLevels": [],
-            "aggregationType": "SUM",
-            "attributeValues": [],
-            "categoryCombo": {
-                "id": "VkQPxB6VdoG"
-            },
-            "description": "Patients with a scheduled visit that is in the past with no visit on the 1st of the month.\nExcludes patients with no phone number.",
-            "domainType": "AGGREGATE",
-            "id": "iRgb6hOfzEk",
-            "legendSets": [],
-            "name": "HTN - Contactable patients that are overdue at the start of the month",
-            "sharing": {
-                "owner": "vUeLeQMSwhN",
-                "public": "r-------",
-                "userGroups": {
-                    "YC7GXhPDxy5": {
-                        "access": "rw------",
-                        "id": "YC7GXhPDxy5"
-                    },
-                    "olcsnfUYf3r": {
-                        "access": "r-------",
-                        "id": "olcsnfUYf3r"
-                    },
-                    "wMfsgxzN9nt": {
-                        "access": "r-------",
-                        "id": "wMfsgxzN9nt"
-                    }
-                },
-                "users": {}
-            },
-            "shortName": "Contactable overdue patients start of month",
-            "translations": [],
-            "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": true
-        },
-        {
             "aggregationLevels": [
                 5
             ],
             "aggregationType": "SUM",
             "attributeValues": [],
             "categoryCombo": {
-                "id": "bjDvmb4bfuf"
+                "id": "VkQPxB6VdoG"
             },
-            "description": "Registered HTN patients who died this month. Used for removing deaths from cumulative patients.",
             "domainType": "AGGREGATE",
-            "formName": "Registered patients who died this month",
-            "id": "wOzeBad0fcs",
+            "formName": "Monthly registrations",
+            "id": "UCzcgZfL9Pw",
             "legendSets": [],
-            "name": "HTN - Patient deaths this period",
+            "name": "HTN - Monthly registrations",
             "sharing": {
                 "owner": "vUeLeQMSwhN",
                 "public": "r-------",
@@ -7606,10 +7814,10 @@
                 },
                 "users": {}
             },
-            "shortName": "HTN deaths this period",
+            "shortName": "Monthly registrations",
             "translations": [],
             "valueType": "INTEGER_ZERO_OR_POSITIVE",
-            "zeroIsSignificant": false
+            "zeroIsSignificant": true
         },
         {
             "aggregationLevels": [],
@@ -7646,6 +7854,82 @@
             "translations": [],
             "valueType": "INTEGER_ZERO_OR_POSITIVE",
             "zeroIsSignificant": true
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "bjDvmb4bfuf"
+            },
+            "code": "NCD_VALID_BP_DATE",
+            "description": "Auto-calculated. Visit date when both systolic and diastolic BP were recorded. Used by program indicators to find the latest valid BP reading (HEARTS 'BP visit').",
+            "domainType": "TRACKER",
+            "formName": "Valid BP reading date",
+            "id": "xAjCjRXyGGS",
+            "legendSets": [],
+            "name": "NCD - Valid BP reading date",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Valid BP reading date",
+            "translations": [],
+            "valueType": "DATE",
+            "zeroIsSignificant": false
+        },
+        {
+            "aggregationLevels": [],
+            "aggregationType": "AVERAGE_SUM_ORG_UNIT",
+            "attributeValues": [],
+            "categoryCombo": {
+                "id": "DXecJGIGvla"
+            },
+            "code": "NCD_SCR_EST_POP_DM_ANNUAL",
+            "description": "Annual estimate of adults with diabetes in the catchment population, by age group and sex. Derived from the STEPS community survey (adults only, so 0-17 years is left blank). Denominator of the DM treatment cascade.",
+            "domainType": "AGGREGATE",
+            "formName": "Estimated adults with diabetes (annual)",
+            "id": "vi3OXLNK0P4",
+            "legendSets": [],
+            "name": "SCR - Estimated population with DM (annual)",
+            "sharing": {
+                "owner": "vUeLeQMSwhN",
+                "public": "r-------",
+                "userGroups": {
+                    "YC7GXhPDxy5": {
+                        "access": "rw------",
+                        "id": "YC7GXhPDxy5"
+                    },
+                    "olcsnfUYf3r": {
+                        "access": "r-------",
+                        "id": "olcsnfUYf3r"
+                    },
+                    "wMfsgxzN9nt": {
+                        "access": "r-------",
+                        "id": "wMfsgxzN9nt"
+                    }
+                },
+                "users": {}
+            },
+            "shortName": "Est pop with DM (annual)",
+            "translations": [],
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "zeroIsSignificant": false
         },
         {
             "aggregationLevels": [],
@@ -7793,23 +8077,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "OROSFgktKAF"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IAN26jYXb2N"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "UxuWtQQ4Gs1"
+                        "id": "tYPFFIxHwj4"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -7825,7 +8093,31 @@
                 },
                 {
                     "dataElement": {
-                        "id": "lRY6tKmJN4K"
+                        "id": "ersfDTtRmwa"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "JftDO8AfOWl"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "ao1214Ogahb"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "IAN26jYXb2N"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -7841,7 +8133,23 @@
                 },
                 {
                     "dataElement": {
-                        "id": "tYPFFIxHwj4"
+                        "id": "KhPN2jLt52I"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "UxuWtQQ4Gs1"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "joYVieLjxKQ"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -7850,22 +8158,6 @@
                 {
                     "dataElement": {
                         "id": "zpLOGIEKRgU"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ersfDTtRmwa"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ao1214Ogahb"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -7889,31 +8181,23 @@
                 },
                 {
                     "dataElement": {
+                        "id": "lRY6tKmJN4K"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "OROSFgktKAF"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "KXgYGZRacnQ"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "JftDO8AfOWl"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "joYVieLjxKQ"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "KhPN2jLt52I"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8054,6 +8338,22 @@
                 },
                 {
                     "dataElement": {
+                        "id": "PWfoNfjcmhY"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "wiUtvIfdc6r"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "WqkLLu6UwLy"
                     },
                     "dataSet": {
@@ -8070,22 +8370,6 @@
                 },
                 {
                     "dataElement": {
-                        "id": "wiUtvIfdc6r"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "gSDfAwhzLxm"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "vY1DeFo6AcP"
                     },
                     "dataSet": {
@@ -8094,7 +8378,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "PWfoNfjcmhY"
+                        "id": "gSDfAwhzLxm"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8166,23 +8450,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "lEReGEQfhtn"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "SZZd6dY0qRn"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "xZ07XCMF85u"
+                        "id": "GL4tv58GtWB"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8206,7 +8474,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "OhgHrhV8MGZ"
+                        "id": "OFpr4x21rwc"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8222,22 +8490,6 @@
                 },
                 {
                     "dataElement": {
-                        "id": "MGWnzMBSVAC"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "GL4tv58GtWB"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "iRgb6hOfzEk"
                     },
                     "dataSet": {
@@ -8246,7 +8498,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "OFpr4x21rwc"
+                        "id": "SZZd6dY0qRn"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8262,7 +8514,39 @@
                 },
                 {
                     "dataElement": {
+                        "id": "xZ07XCMF85u"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "lEReGEQfhtn"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "UCzcgZfL9Pw"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "OhgHrhV8MGZ"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "MGWnzMBSVAC"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -11288,6 +11572,21 @@
             "legends": [
                 {
                     "attributeValues": [],
+                    "color": "#67000d",
+                    "endValue": -75.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "M68Qvionm8q",
+                    "name": "-100 to -75",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -100.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
                     "color": "#fb6a4a",
                     "endValue": -10.0,
                     "favorite": false,
@@ -11299,6 +11598,21 @@
                         "users": {}
                     },
                     "startValue": -25.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#a50f15",
+                    "endValue": -50.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Zz9KK2Hq24W",
+                    "name": "-75 to -50",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -75.0,
                     "translations": []
                 },
                 {
@@ -11333,66 +11647,6 @@
                 },
                 {
                     "attributeValues": [],
-                    "color": "#de2d26",
-                    "endValue": -25.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "lhjxKDLJX0V",
-                    "name": "-50 to -25",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -50.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#006d2c",
-                    "endValue": 100.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "l4TvQd2BTE2",
-                    "name": "75 to 100",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 75.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#67000d",
-                    "endValue": -75.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "M68Qvionm8q",
-                    "name": "-100 to -75",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -100.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#a50f15",
-                    "endValue": -50.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Zz9KK2Hq24W",
-                    "name": "-75 to -50",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -75.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#fcbba1",
                     "endValue": 0.0,
                     "favorite": false,
@@ -11419,6 +11673,36 @@
                         "users": {}
                     },
                     "startValue": 50.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#de2d26",
+                    "endValue": -25.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "lhjxKDLJX0V",
+                    "name": "-50 to -25",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -50.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#006d2c",
+                    "endValue": 100.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "l4TvQd2BTE2",
+                    "name": "75 to 100",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 75.0,
                     "translations": []
                 },
                 {
@@ -13679,7 +13963,7 @@
         "description": "Hypertension and Diabetes Tracker",
         "healthAreaCode": "NCD",
         "healthAreaName": "Non-Communicable Diseases",
-        "lastUpdated": "20261107T102150",
+        "lastUpdated": "20261108T105740",
         "locale": "en",
         "name": "NCD_HDM_TRK_DHIS2.42.7.1-en",
         "type": "TRK",
@@ -13693,21 +13977,6 @@
             "aggregateExportDataElement": "KXgYGZRacnQ",
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "f3PfIlClVJz",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
@@ -13732,6 +14001,21 @@
                     "id": "cif9sD99Olq",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "f3PfIlClVJz",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -13796,21 +14080,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "suXISulaI8z",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -13834,6 +14103,21 @@
                     "id": "A8UurcZEtF5",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "suXISulaI8z",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -13898,21 +14182,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "RSsOpiMLn2u",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -13936,6 +14205,21 @@
                     "id": "kVe09mpfkVt",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "RSsOpiMLn2u",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14000,21 +14284,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "d0Zd6vCvGB0",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -14038,6 +14307,21 @@
                     "id": "WVabV2CYreo",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "d0Zd6vCvGB0",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14250,10 +14534,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "SuSDp9wKBVf",
+                    "id": "HFE6GqiXIx0",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -14265,10 +14549,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "HFE6GqiXIx0",
+                    "id": "SuSDp9wKBVf",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -14412,12 +14696,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "SlVvnolbKA9",
+                    "id": "L8iHWMcTUMu",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14425,12 +14709,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "L8iHWMcTUMu",
+                    "id": "SlVvnolbKA9",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14496,21 +14780,6 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "EpLHIK2Nkx1",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
@@ -14532,6 +14801,21 @@
                     "id": "sDIfKIHUzcK",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "EpLHIK2Nkx1",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14595,21 +14879,6 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Iaj78WpIoYS",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
@@ -14631,6 +14900,21 @@
                     "id": "rGrXBRZxwAp",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Iaj78WpIoYS",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14695,21 +14979,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "r60L14ZwtBr",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -14733,6 +15002,21 @@
                     "id": "w7UyFoDIGOL",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "r60L14ZwtBr",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14796,21 +15080,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "c2EjiNFoRp4",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -14834,6 +15103,21 @@
                     "id": "UVWGWFsJPVF",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -2,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "c2EjiNFoRp4",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14895,21 +15179,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Wtj5B521z6c",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -14933,6 +15202,21 @@
                     "id": "V7ONpMlGEaC",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Wtj5B521z6c",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -14997,21 +15281,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "UbEak30HI9X",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -15035,6 +15304,21 @@
                     "id": "uzOnSZwkSPY",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -2,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "UbEak30HI9X",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -15096,12 +15380,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "Hrd3IMwXa1U",
+                    "id": "syXq3eZ6G07",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -15126,12 +15410,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "syXq3eZ6G07",
+                    "id": "Hrd3IMwXa1U",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -15214,21 +15498,6 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "CzhR5qMZwFb",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
@@ -15250,6 +15519,21 @@
                     "id": "Sqa8Xgh16dy",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "CzhR5qMZwFb",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -15315,12 +15599,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "OjoDwKZoGxh",
+                    "id": "PIwzVOkDHAK",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -15345,12 +15629,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "PIwzVOkDHAK",
+                    "id": "OjoDwKZoGxh",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -15431,12 +15715,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "ZMa28sYEzD9",
+                    "id": "wzKJFcFTq1S",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -15461,12 +15745,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "wzKJFcFTq1S",
+                    "id": "ZMa28sYEzD9",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16083,10 +16367,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "bL1kk8UrrfU",
+                    "id": "WLHV8B3YtFq",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16098,10 +16382,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "WLHV8B3YtFq",
+                    "id": "bL1kk8UrrfU",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16210,10 +16494,11 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "z1OMHVDg1eq",
+                    "id": "FA8pkGgdIzW",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16223,11 +16508,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "FA8pkGgdIzW",
-                    "offsetPeriods": 0,
+                    "id": "z1OMHVDg1eq",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16280,12 +16564,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "kXSNiyqtkJ5",
+                    "id": "oHafPAHX6WH",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16293,12 +16577,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "oHafPAHX6WH",
+                    "id": "kXSNiyqtkJ5",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16363,10 +16647,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "fZmt31j0Jfg",
+                    "id": "LhJp2rYleEM",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16378,10 +16662,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "LhJp2rYleEM",
+                    "id": "fZmt31j0Jfg",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16446,10 +16730,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
+                    "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "W1htSpQn7lW",
+                    "id": "vEd0XZFGc2N",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16461,10 +16745,10 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "ENROLLMENT_DATE",
+                    "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "vEd0XZFGc2N",
+                    "id": "W1htSpQn7lW",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -16530,21 +16814,6 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "WwYqonx6Sa4",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
@@ -16566,6 +16835,21 @@
                     "id": "Z23pRdmNnTX",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "WwYqonx6Sa4",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16629,21 +16913,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "WtP3M80B4K6",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -16667,6 +16936,21 @@
                     "id": "Bcb1532bgBV",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "WtP3M80B4K6",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16731,21 +17015,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "nOG2IiPxzvZ",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -16769,6 +17038,21 @@
                     "id": "bA6jRP0FSGh",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "nOG2IiPxzvZ",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16833,21 +17117,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Y96wBF4p5Qy",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -16871,6 +17140,21 @@
                     "id": "HjzU3E8gCAX",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Y96wBF4p5Qy",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -16935,21 +17219,6 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "JsLmlosmyzL",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
                     "analyticsPeriodBoundaryType": "BEFORE_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
@@ -16973,6 +17242,21 @@
                     "id": "bGivf59eqOJ",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "JsLmlosmyzL",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -17037,12 +17321,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "vCiHsze4ViI",
+                    "id": "uUY5tmggdHC",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17067,12 +17351,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "uUY5tmggdHC",
+                    "id": "vCiHsze4ViI",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17154,21 +17438,6 @@
                 {
                     "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
-                    "boundaryTarget": "EVENT_DATE",
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Xt4D4gZL6LN",
-                    "offsetPeriodType": "Monthly",
-                    "offsetPeriods": 0,
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "translations": []
-                },
-                {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
-                    "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
@@ -17190,6 +17459,21 @@
                     "id": "Dp1CeOeWSOj",
                     "offsetPeriodType": "Monthly",
                     "offsetPeriods": -11,
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "translations": []
+                },
+                {
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "attributeValues": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Xt4D4gZL6LN",
+                    "offsetPeriodType": "Monthly",
+                    "offsetPeriods": 0,
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -17254,12 +17538,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "cVvgZHY5Mb6",
+                    "id": "zu5R2ba7VxH",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17284,12 +17568,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "zu5R2ba7VxH",
+                    "id": "cVvgZHY5Mb6",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17369,12 +17653,12 @@
             "aggregationType": "COUNT",
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "rnaps5gKqHD",
+                    "id": "Lr52csMRx2j",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17399,12 +17683,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "EVENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "Lr52csMRx2j",
+                    "id": "rnaps5gKqHD",
                     "offsetPeriodType": "Quarterly",
                     "offsetPeriods": 0,
                     "sharing": {
@@ -17482,12 +17766,12 @@
         {
             "analyticsPeriodBoundaries": [
                 {
-                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "JnEJkz3tVr8",
+                    "id": "R9EeZwiCBXR",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -17495,12 +17779,12 @@
                     "translations": []
                 },
                 {
-                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD",
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD",
                     "attributeValues": [],
                     "boundaryTarget": "ENROLLMENT_DATE",
                     "favorite": false,
                     "favorites": [],
-                    "id": "R9EeZwiCBXR",
+                    "id": "JnEJkz3tVr8",
                     "sharing": {
                         "userGroups": {},
                         "users": {}
@@ -19497,10 +19781,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "xS5Fb16DWjJ"
+                    "id": "r1zOrPPRctk"
                 },
                 {
-                    "id": "r1zOrPPRctk"
+                    "id": "xS5Fb16DWjJ"
                 }
             ],
             "programStage": {
@@ -19633,10 +19917,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "x4i0KN11xX9"
+                    "id": "Ej2iWGEnLws"
                 },
                 {
-                    "id": "Ej2iWGEnLws"
+                    "id": "x4i0KN11xX9"
                 }
             ],
             "programStage": {
@@ -20063,16 +20347,16 @@
                     "id": "Cgw6VPdj1Nt"
                 },
                 {
-                    "id": "tZmSz03B4U5"
-                },
-                {
                     "id": "OU4RRHGolAV"
                 },
                 {
-                    "id": "leF83953ErO"
+                    "id": "IjrSAJU1R7l"
                 },
                 {
-                    "id": "IjrSAJU1R7l"
+                    "id": "tZmSz03B4U5"
+                },
+                {
+                    "id": "leF83953ErO"
                 }
             ],
             "translations": []
@@ -22171,32 +22455,32 @@
             },
             "categoryMappings": [
                 {
-                    "categoryId": "FRwO58KwwJt",
-                    "id": "zVZl6VTUEtr",
-                    "mappingName": "Standard Sex mapping",
-                    "optionMappings": [
-                        {
-                            "filter": "A{oindugucx72}=='MALE'",
-                            "optionId": "FFA9e1yIXCT"
-                        },
-                        {
-                            "filter": "A{oindugucx72}=='FEMALE'",
-                            "optionId": "MP15bHaQh2x"
-                        }
-                    ]
-                },
-                {
                     "categoryId": "afCg6OEp7Bd",
                     "id": "V09hoJs8PJc",
                     "mappingName": "Standard Age (0-18+ years) mapping",
                     "optionMappings": [
                         {
-                            "filter": "d2:yearsBetween( V{analytics_period_start}, A{NI0QRzJvQ0k}) < 18",
+                            "filter": "d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start}) < 18",
                             "optionId": "frBkqzNkBrK"
                         },
                         {
-                            "filter": "d2:yearsBetween( V{analytics_period_start}, A{NI0QRzJvQ0k}) >= 18",
+                            "filter": "d2:yearsBetween(A{NI0QRzJvQ0k}, V{analytics_period_start}) >= 18",
                             "optionId": "xcTwbNwFsOg"
+                        }
+                    ]
+                },
+                {
+                    "categoryId": "FRwO58KwwJt",
+                    "id": "zVZl6VTUEtr",
+                    "mappingName": "Standard Sex mapping",
+                    "optionMappings": [
+                        {
+                            "filter": "A{oindugucx72}=='FEMALE'",
+                            "optionId": "FFA9e1yIXCT"
+                        },
+                        {
+                            "filter": "A{oindugucx72}=='MALE'",
+                            "optionId": "MP15bHaQh2x"
                         }
                     ]
                 }
@@ -22211,7 +22495,7 @@
             "ignoreOverdueEvents": false,
             "maxTeiCountToReturn": 0,
             "minAttributesRequiredToSearch": 1,
-            "name": "Hypertension & Diabetes",
+            "name": "Hypertension and Diabetes",
             "notificationTemplates": [],
             "onlyEnrollOnce": true,
             "openDaysAfterCoEndDate": 0,
@@ -22902,7 +23186,7 @@
                 },
                 "users": {}
             },
-            "shortName": "NCD_HDM",
+            "shortName": "ncd_htn",
             "skipOffline": false,
             "style": {
                 "color": "#6200ea",
@@ -24413,6 +24697,15 @@
                     "id": "mFdU8Thg6BT"
                 },
                 {
+                    "id": "kOAtLamqaLb"
+                },
+                {
+                    "id": "LXyrNengFEs"
+                },
+                {
+                    "id": "eWRlsb5o9a0"
+                },
+                {
                     "id": "gBbQj6Yh86f"
                 },
                 {
@@ -24425,16 +24718,31 @@
                     "id": "fZNTVSMI6Ao"
                 },
                 {
+                    "id": "kYvMNYFOboR"
+                },
+                {
+                    "id": "qjNHvZSyvPR"
+                },
+                {
                     "id": "ng66Ocy3W6C"
                 },
                 {
                     "id": "p6ehjkFSz2S"
                 },
                 {
+                    "id": "oLkKXmLRRT0"
+                },
+                {
+                    "id": "w0Q21KNc69U"
+                },
+                {
                     "id": "w4jodvosiC5"
                 },
                 {
                     "id": "ifODk15DcQk"
+                },
+                {
+                    "id": "elGj1b7TPtJ"
                 },
                 {
                     "id": "FKmHBq0bcjO"
@@ -24444,54 +24752,6 @@
                 },
                 {
                     "id": "wTkhsOmD4JY"
-                },
-                {
-                    "id": "c9458UqIvug"
-                },
-                {
-                    "id": "q33MxfUbuUC"
-                },
-                {
-                    "id": "UboyuaNbvus"
-                },
-                {
-                    "id": "uD26Dl0gu06"
-                },
-                {
-                    "id": "zeSyLWYxecn"
-                },
-                {
-                    "id": "dQfMXSUg8wS"
-                },
-                {
-                    "id": "s4BkUFDbosQ"
-                },
-                {
-                    "id": "jTdwoEJNJqu"
-                },
-                {
-                    "id": "kOAtLamqaLb"
-                },
-                {
-                    "id": "LXyrNengFEs"
-                },
-                {
-                    "id": "eWRlsb5o9a0"
-                },
-                {
-                    "id": "kYvMNYFOboR"
-                },
-                {
-                    "id": "qjNHvZSyvPR"
-                },
-                {
-                    "id": "oLkKXmLRRT0"
-                },
-                {
-                    "id": "w0Q21KNc69U"
-                },
-                {
-                    "id": "elGj1b7TPtJ"
                 },
                 {
                     "id": "YmcZWvlYpGW"
@@ -24506,22 +24766,46 @@
                     "id": "TMciKb9qJU2"
                 },
                 {
+                    "id": "c9458UqIvug"
+                },
+                {
                     "id": "S4ejBysvWaL"
+                },
+                {
+                    "id": "q33MxfUbuUC"
                 },
                 {
                     "id": "R9MhVLtFcEo"
                 },
                 {
+                    "id": "UboyuaNbvus"
+                },
+                {
                     "id": "fnRIISVBcUx"
                 },
                 {
+                    "id": "uD26Dl0gu06"
+                },
+                {
+                    "id": "zeSyLWYxecn"
+                },
+                {
                     "id": "zZspXk6GjU8"
+                },
+                {
+                    "id": "dQfMXSUg8wS"
                 },
                 {
                     "id": "hXLzoLGCqM6"
                 },
                 {
                     "id": "fqmFKSnSpAc"
+                },
+                {
+                    "id": "s4BkUFDbosQ"
+                },
+                {
+                    "id": "jTdwoEJNJqu"
                 }
             ]
         }
