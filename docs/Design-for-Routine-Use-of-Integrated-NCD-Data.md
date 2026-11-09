@@ -251,7 +251,7 @@ graph TD
 | Average | | | 49.2% |
 
 
-Carbon and Neon each have 3 controlled patients, but Neon's rate is far lower because it has more eligible patients. This is the reason for showing both the proportion and the raw number on dashboards, as the [DHIS2 hypertension control package](https://docs.dhis2.org/en/implement/health/non-communicable-diseases/hypertension-control/overview.html) does. With denominators of 4 to 8, a single patient moves the rate by 12–25 percentage points, so a review should not rank facilities on rates this small without looking at the counts.
+Carbon and Neon each have 3 controlled patients, but Neon's rate is far lower because it has more eligible patients. This is the reason for showing both the proportion and the raw number on dashboards, as the [DHIS2 hypertension control package](https://github.com/simpledotorg/dhis2-hypertension-package/blob/main/doc/design_guide.md) does. With denominators of 4 to 8, a single patient moves the rate by 12–25 percentage points, so a review should not rank facilities on rates this small without looking at the counts.
 
 ### Reading Order for a Performance Review { #ncd_routine_data_use_reading_order }
 
