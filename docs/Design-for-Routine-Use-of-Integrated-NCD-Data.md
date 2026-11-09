@@ -4,7 +4,7 @@
 
 Non-communicable diseases (NCDs) are now the leading cause of death in most of the world. According to WHO, NCDs killed at least [43 million people in 2021](https://www.afro.who.int/publications/dpc-noncommunicable-diseases-quarterly-bulletin-issue-03), three quarters of all non-pandemic deaths globally. Cardiovascular disease, cancers, chronic respiratory disease, and diabetes caused 17.9, 9.3, 4.1, and 1.5 million deaths respectively, and more than 85% of premature NCD deaths in people aged 30–69 occur in low- and middle-income countries \[[Quiambao et al., 2025](https://doi.org/10.1016/j.eclinm.2025.103304)\]. Sustainable Development Goal 3.4 commits countries to cut premature NCD mortality by one third by 2030, and most countries are not on track.
 
-To act against this burden, health programs need routine data on who is being screened, diagnosed, treated, and controlled. Over the last decade WHO released technical packages to support NCD service delivery (PEN, HEARTS, and HEARTS-D) and in 2022 published the [*Noncommunicable disease facility-based monitoring guidance*](https://www.who.int/publications/i/item/9789240057067), which defines a primary-care indicator framework for routine NCD monitoring. A 2024 HISP Centre landscape analysis combined with HISP inputs found that over 40 national governments integrate some diabetes, hypertension, or CVD data in DHIS2. (See: [DHIS2 for Noncommunicable Diseases](https://dhis2.org/ncd/)).
+To act against this burden, health programs need routine data on who is being screened, diagnosed, treated, and controlled. Over the last decade WHO released technical packages to support NCD service delivery (PEN, HEARTS, and HEARTS-D) and in 2022 published the [*Noncommunicable disease facility-based monitoring guidance*](https://www.who.int/publications/i/item/9789240057067), which defines a primary-care indicator framework for routine NCD monitoring. A 2024 HISP Centre landscape analysis combined with global HISP inputs found that over 40 national governments integrate some diabetes, hypertension, or CVD data into DHIS2. (See: [DHIS2 for Noncommunicable Diseases](https://dhis2.org/ncd/)).
 
 **The primary barrier for NCD control is no longer data capture, but data use.** In 2024, a [four-country webinar on NCD data in national HMIS](https://dhis2.org/events/webinar-ncd-hmis-data-may-2024/) reviewed Ethiopia, Rwanda, Ghana, and Malawi, all of which report NCD data through DHIS2-based Health Management Information Systems (HMIS). All four named the same gaps: few standardized dashboards, weak analysis capacity, and community, private sector, or individual-level data not yet connected to the HMIS. Similar conclusions were drawn in WHO's [*Toolkit for the analysis and use of facility-based data on noncommunicable diseases*](https://www.who.int/publications/i/item/9789240113473). The [Diabetes Compass initiative](https://dhis2.org/fighting-ncds-in-malawi-and-sri-lanka-with-the-diabetes-compass-project/) in Malawi, Tanzania, and Sri Lanka worked with HISP groups and Ministry of Health leaders to develop system architectures and scalable digital solutions for routine NCD indicators.
 
@@ -33,15 +33,15 @@ graph LR
 
 ### Naming the Users and Their Decisions { #ncd_routine_data_use_users }
 
-The Diabetes Compass use-case visions are organized by health-system level: facility managers, district or regional NCD coordinators, and national hospital managers and planners. Each level has its own decisions and cadence, for example:
+In Diabetes Compass implementations, users are encouraged to consider user perspective of facility managers, district or regional NCD coordinators, and national hospital managers and planners. Each level has its own decisions and cadence, for example:
 
 - **Facility manager, monthly:** order diabetes and hypertension medicines from an essential-medicines forecasting report; review patients active in care, consultations conducted, average wait time, and consultation length in a facility quality-management report.
 - **District/regional coordinator, quarterly:** implement WHO "NCD Best Buys" (such as a mass-media physical-activity campaign or facility-based preventive foot care) across district hospitals, and plan supervision based on facility performance.
 - **National planner, quarterly:** allocate procurement funding across districts and report to higher levels.
 
-The same structure adapts to local institutions. Structures for ordering medications vary depending on country context. The Malawi version orders medicines every six weeks through the Medical Stores Department; the Sri Lanka version orders monthly through the Medical Supply Division.
+The same structure adapts to local institutions: for example, mechanisms for ordering medications vary by country. The Malawi version orders medicines every six weeks through the Medical Stores Department; the Sri Lanka version orders monthly through the Medical Supply Division.
 
-A second way to find the decisions that matter is to follow the patient through the care cascade. The World Bank's [Patient Pathway Analytics](https://openknowledge.worldbank.org/entities/publication/7755ce0b-42f8-4b24-a03c-15f5ba55a291) method maps where people actually seek care and where they drop out. Across care-continuum assessments in five countries, the World Bank extracted 185 barriers and judged 133 of them addressable with digital tools. One of its nine barrier domains is monitoring, program management, and performance oversight, which could be addressed through routine indicator could close.
+A second way to find the decisions that matter is to follow the **patient** through the care cascade. The World Bank's [Patient Pathway Analytics](https://openknowledge.worldbank.org/entities/publication/7755ce0b-42f8-4b24-a03c-15f5ba55a291) method maps where people actually seek care and where they drop out. Across care-continuum assessments in five countries, the World Bank extracted 185 barriers and judged 133 of them addressable with digital tools. One of its nine barrier domains is monitoring, program management, and performance oversight, which could be addressed through routine indicator could close.
 
 ![Diabetes Compass workshop for collecting data across patient journey](resources/images/du_compass_patientjourney.png)
 
@@ -66,13 +66,11 @@ graph LR
 
 ### Building Dashboards Around Decisions { #ncd_routine_data_use_dashboards }
 
-Dashboards should answer the decisions named above, not display every available indicator. Two design rules recur across the sources:
+Dashboards should answer the decisions named above, not display every available indicator. Two design rules are essential:
 
 - **Show indicators both ways.** The Sri Lanka dashboard demo presents each indicator as a proportion, for comparison across facilities, and as a raw number, to check the sample is large enough to trust.
-- **Use a small set of visualization types.** The WHO toolkit recommends standardized-indicator charts, heat maps, target-achievement charts, performance tables, and trend graphs, with end-user testing before rollout \[[WHO toolkit Module 1](https://www.who.int/publications/i/item/9789240113473)\].
+- **Use a small set of visualization types.** The [WHO toolkit Module 1](https://www.who.int/publications/i/item/9789240113473) recommends standardized-indicator charts, heat maps, target-achievement charts, performance tables, and trend graphs, with end-user testing before rollout.
 
-<!-- IMAGE (paste from existing resource): WHO toolkit Module 1 (who/who_ncd_toolkit_analysis_use_module1.pdf), Fig. 6 "heat map adjusted for benchmarks" and Fig. 7 "Target achievement chart for disease control" (PDF pp. 36-37). Shows two of the recommended visualization types. Credit WHO in the caption.
-![Example heat map and target achievement chart (WHO toolkit Module 1, Figs. 6-7)](resources/images/ncd_data_use/who_visualization_examples.png){ .center width=80% } -->
 
 > **Example**
 >
@@ -91,7 +89,9 @@ Dashboards should answer the decisions named above, not display every available 
 
 In many primary health care facilities, a typical hypertension follow-up visit lasts 2–4 minutes, but dozens of patients can be seen every day. Resolve to Save Lives, which has used both DHIS2 Tracker and the Simple app to monitor its hypertension control projects, sets a performance threshold of under 90 seconds for first-visit data entry and under 20 seconds for follow-up entry \[[RTSL digital tools playbook](https://resolvetosavelives.org/resources/optimal-digital-tool/)\]. Their key finding was that if data entry is *not* fast, health workers will not record BP at every visit, and the control-rate indicator the whole program depends on will be built on incomplete data.
 
-One of the easiest ways to make data entry faster is to accept a minimal dataset needed for program monitoring. The Resolve to Save Lives guidance for digital applications identifies several common data points with limited marginal value for program monitoring. For example, BMI requires weight scales many facilities do not have; individual risk-factor data is time-consuming to collect and rarely changes treatment for a patient already diagnosed; lab results are needed to assess complications at a clinical encounter, but not for the longitudinal record. Another way to speed up data entry is to streamline record retrieval by scanning a QR code on the patient's card instead of searching by their name/phone number: this cuts patient search time by as much as 20 seconds per encounter in RTSL's deployments. NCD Tracker systems often need to scale across millions of patients, and every extra step comes at a significant cost in time, data quality, and patient experience.
+One of the easiest ways to make data entry faster is to accept a minimal dataset needed for program monitoring. The Resolve to Save Lives guidance for digital applications identifies several common data points with limited marginal value for program monitoring. For example, BMI requires weight scales many facilities do not have; individual risk-factor data is time-consuming to collect and rarely changes treatment for a patient already diagnosed; lab results are needed to assess complications at a clinical encounter, but not for the longitudinal record. 
+
+Another way to speed up data entry is to streamline record retrieval by scanning a QR code on the patient's card instead of searching by their name/phone number: this cuts patient search time by as much as 20 seconds per encounter in RTSL's deployments. NCD Tracker systems often need to scale across millions of patients, and **every extra step comes at a significant cost in time, data quality, and patient experience.**
 
 
 ### Planning for the Culture, Not Just the Tool { #ncd_routine_data_use_culture }
@@ -108,7 +108,7 @@ graph LR
 
 > **Tip**
 >
-> One shared lesson across the four countries in the DHIS2 NCD webinar was that NCD data are collected but generally underused. The cheapest early win was not a new indicator, but a recurring review meeting where existing data are read and acted on. For example, Rwanda locks its NCD dataset on the 10th of each month to new changes, but only after every facility has reviewed and discussed its collated data.
+> One shared lesson across the four countries in the DHIS2 NCD webinar was the quickest early win for data use was not a new indicator, but a recurring review meeting where existing data are read and acted on. For example, Rwanda locks its NCD dataset on the 10th of each month to new changes, but only after every facility has reviewed and discussed its collated data.
 
 ## Aligning Indicators and Goals { #ncd_routine_data_use_indicators }
 
@@ -151,11 +151,11 @@ The Diabetes Compass indicator-development process adapts a generic global list 
 | 4. Develop | Map indicators to data sources; configure indicators, reports, and analytics in DHIS2 | Configuration and testing |
 | 5. Implement | Train health workers on reporting and managers on data use | Training sessions |
 
-The Diabetes Compass global list holds about 180 indicators across NCDs like diabetes, CVD/hypertension, cancer, chronic respiratory disease, and sickle cell, built on the WHO 2022 facility-based monitoring guidance and the PAHO/WHO 2015 NCD compendium. Indicators are selected against a six-point quality check: valid, well-defined, related to a desired outcome, professionally accepted, communicable, and drawing on data already in the system without double registration.
+The Diabetes Compass global list holds about 180 indicators across NCDs like diabetes, CVD/hypertension, cancer, chronic respiratory disease, and sickle cell, built on the WHO 2022 facility-based monitoring guidance and the PAHO/WHO 2015 NCD compendium. Indicators are selected against a six-point quality check: *valid, well-defined, related to a desired outcome, professionally accepted, communicable, and drawing on data already in the system* without double registration.
 
 > **Example**
 >
-> In Ethiopia, an indicator is added to the national set only when it is standardized across all facilities and partners, simply defined, integrated into the system, and supported by the tools to capture it from patient cards into registers. Otherwise it is not adopted, regardless of how many partners request it \[NCD webinar, Ethiopia presentation\].
+> In Ethiopia, an indicator is added to the national set only when it is standardized across all facilities and partners, simply defined, integrated into the system, and supported by the tools to capture it from patient cards into registers. Otherwise it is not adopted, regardless of how many partners request it \[See: NCD webinar, Ethiopia presentation\].
 
 ### Documenting Indicators with a Consistent Template { #ncd_routine_data_use_indicator_template }
 
@@ -198,19 +198,19 @@ This set spans the results chain: screening (1–2), treatment (3, 5), control o
 >
 > The denominators for indicators 3 and 5 can be either the count registered at facilities or an estimate from STEPS prevalence times the catchment population. Registered counts measure the program; estimated counts measure population coverage. Show both where possible, and state which is used, because they answer different questions.
 
-When put tpgether, a country has identified priority indicators and their source
+When put together, a country has identified priority indicators and their sources. This diagram from Sri Lanka shows the range from inputs to patient outcomes:
 
-![NCD indicators organized along the results chain (Diabetes Compass, Sri Lanka)](resources/images/du_compass_example_framework.png){ .center width=80% } -->
+![NCD indicators organized along the results chain (Diabetes Compass, Sri Lanka)](resources/images/du_compass_example_framework.png){ .center width=80% }
 
 ### Setting Targets the Country Owns { #ncd_routine_data_use_targets }
 
 The WHO 2022 guidance defines the indicators but deliberately does not set targets. It states that countries must set their own baselines and targets with stakeholders at each reporting level.
 
-Use survey and regional data to set realistic baselines rather than aspirational round numbers. STEPS surveys give a population baseline; 18 countries in the WHO African Region conducted WHO STEPS surveys between 2020 and 2024 \[[WHO-AFRO NCD Bulletin, Issue 1](https://www.afro.who.int/sites/default/files/2025-04/NCD%20Quaterly%20Bulletin%20Final.pdf)\]. Regional benchmarks show how far current performance sits from control.
+Use survey and regional data to set realistic baselines rather than aspirational round numbers. STEPS surveys give a population baseline; 18 countries in the WHO African Region conducted WHO STEPS surveys between 2020 and 2024, [according to a WHO AFRO report](https://www.afro.who.int/sites/default/files/2025-04/NCD%20Quaterly%20Bulletin%20Final.pdf). Regional benchmarks show how far current performance sits from control.
 
 > **Example**
 >
-> Hypertension treatment coverage is as low as 11–16% in Kenya, Ethiopia, and Tanzania, and control rates are below 20% in most countries and under 10% in CAR, Ethiopia, Kenya, Niger, and Rwanda \[WHO-AFRO NCD Bulletin, Issue 4\]. A target should be reachable from the current baseline within the reporting period, which is why it is a country decision rather than a WHO default.
+> Hypertension treatment coverage is as low as 11–16% in Kenya, Ethiopia, and Tanzania, and control rates are below 20% in most countries and under 10% in CAR, Ethiopia, Kenya, Niger, and Rwanda \[see: WHO-AFRO NCD Bulletin, Issue 4\]. A target should be reachable from the current baseline within the reporting period, which is why it is a country decision rather than a WHO default.
 
 ## Using the Routine Data { #ncd_routine_data_use_using }
 
@@ -230,7 +230,7 @@ All Diabetes Compass countries identified several rules of thumb for interpretin
 
 [WHO toolkit Module 2](https://www.who.int/publications/i/item/9789240113497) walks through these rules with a synthetic dataset of 10 facilities in two districts. For comparing aggregate data, these examples are worth examining in detail:
 
-**Calculating control at one facility.** The facility "Carbon" has 6 people registered for hypertension care. None are lost to follow-up, but one enrolled in the last three months of the year, so the denominator drops to 5 \[WHO toolkit Module 2, Fig. 6, p. 16\].
+**Calculating control at one facility.** The facility "Carbon" has 6 people registered for hypertension care. None are lost to follow-up, but one enrolled in the last three months of the year, so the denominator drops to 5 \[see: WHO toolkit Module 2, Fig. 6, p. 16\].
 
 ``` mermaid
 graph TD
@@ -250,14 +250,15 @@ graph TD
 | Neon | 3 | 8 | 37.5% |
 | Average | | | 49.2% |
 
-<!-- IMAGE (paste from existing resource): WHO toolkit Module 2 (who/who_ncd_toolkit_analysis_use_module2.pdf), Fig. 7 "Graph displaying BP control among people with hypertension" (PDF p. 25). Bar chart of the three facilities. Credit WHO in the caption.
-![BP control at facilities Carbon, Oxygen and Neon (WHO toolkit Module 2, Fig. 7)](resources/images/ncd_data_use/who_bp_control_facilities.png){ .center width=70% } -->
 
 Carbon and Neon each have 3 controlled patients, but Neon's rate is far lower because it has more eligible patients. This is the reason for showing both the proportion and the raw number on dashboards, as the [DHIS2 hypertension control package](https://docs.dhis2.org/en/implement/health/non-communicable-diseases/hypertension-control/overview.html) does. With denominators of 4 to 8, a single patient moves the rate by 12–25 percentage points, so a review should not rank facilities on rates this small without looking at the counts.
 
 ### Reading Order for a Performance Review { #ncd_routine_data_use_reading_order }
 
 WHO toolkit Module 1 recommends an order for reviewing NCD indicators at district or facility level. Start with the outcome indicators (BP control, glycemic control). If they meet the target, the review can stop there. If not, move to the output indicators (screening, treatment, complication assessment, referral) to find the bottleneck, and if the outputs do not explain it, move to the determinants: medicine and diagnostic availability, approved guidelines, and trained staff. In a district meeting, a facility with low BP control and normal treatment coverage points to a clinical or follow-up problem. A facility with low treatment coverage and repeated antihypertensive stock-outs points to supply.
+
+This sequence follows the analytical model in WHO toolkit Module 1, Fig. 3.
+
 
 ``` mermaid
 graph TD
@@ -266,8 +267,6 @@ graph TD
     P -->|Yes| B["Act on the service-delivery bottleneck"]
     P -->|No| D["Check determinants:<br>medicines, diagnostics,<br>guidelines, trained staff"]
 ```
-
-This sequence follows the analytical model in WHO toolkit Module 1, Fig. 3.
 
 ### Checking Data Quality { #ncd_routine_data_use_data_quality }
 
@@ -286,7 +285,7 @@ DHIS2 validation rules can also encode several of these checks automatically: a 
 >
 > In Ethiopia, the data-entry form highlights a data-quality problem in red at the point of entry. For example, when individual screening counts by age do not equal screening counts by result, the discrepancy is flagged immediately rather than discovered later in analysis \[NCD webinar, Ethiopia presentation\].
 
-Digitized patient registries at clinical level can improve data quality, but EMR coverage varies across regions. In Asia, a 2023 SEARO capacity survey found only Thailand runs a fully electronic patient information system at both primary and secondary levels, and only India and DPR Korea report interoperable systems; the 2019 EMRO survey found 64% of countries with an electronic NCD patient system and mortality data systems weaker still. Where systems are partly paper-based, the transcription steps from register to tally sheet to DHIS2 are where errors enter.
+Digitized patient registries at clinical level can improve data quality, but EMR coverage varies across regions. In Asia, a [2023  capacity survey](https://www.who.int/publications/i/item/9789290220909) in WHO SEARO region found only Thailand runs a fully electronic patient information system at both primary and secondary levels, and only India and DPR Korea report interoperable systems. A similar [2023 EMRO survey](https://www.who.int/publications/b/81553) found 68% of countries in the region with an electronic NCD patient system, and same level for cause-based mortality data. Where systems are partly paper-based, the transcription steps from register to tally sheet to DHIS2 are where errors enter.
 
 
 ![Tools and data flow for NCD reporting at facility level (WHO toolkit Module 1, Fig. 1)](resources/images/du_who_commonTools.png){ .center width=80% } -->
@@ -304,10 +303,8 @@ The supervision visit is one of the few recurring moments when a district office
 - **Verify the data at source.** Compare a sample of the facility's reported figures against the registers and patient cards behind them. In the NCD webinar, HISP Ethiopia described supportive supervision as the mechanism for catching registration and transcription errors that the system flags but cannot fix on its own. This is the external/source check from the data-quality dimensions, done in person.
 - **Use the data to plan with the facility.** Bring the facility's own dashboard or quality report to the visit and work through it with staff: which indicators are below target, which patients on the line list need follow-up, and what the facility will change before the next visit. Diabetes Compass guidance suggests countries use a quarterly facility quality-management report and two patient line lists (most vulnerable, and nearly controlled) to give a supervisor a concrete agenda rather than a generic checklist.
 
-<!-- IMAGE (paste from existing resource): Sri Lanka facility data use workshop (diabetes_compass_docs/4 Dashboards/Examples from countries/Workshop - Facility Data use EXAMPLE SL.pptx), slides 15-16 "Patient line list (1)" and "(2)": the most vulnerable and the nearly controlled patients. Check that the mock-ups contain no real patient names before publishing. Alternative: Dashboard demo EXAMPLE SL.pptx, slides 14-15.
-![Patient line lists for a supervision visit (Diabetes Compass, Sri Lanka)](resources/images/ncd_data_use/patient_line_lists.png){ .center width=90% } -->
 
-Supervision can be digitized so its findings become data in their own right. The WHO 2022 guidance includes a cross-cutting indicator on the proportion of facilities receiving a supervisory visit, which turns supervision coverage into something a district can monitor. For example, eRDQA (Routine Data Quality Assessment) and DQR-RSC (Data Quality Review Routine Supervision Checklist) are supervision tools implemented in the [DHIS2 Supervision app](https://docs.dhis2.org/en/implement/data-quality/supervision-web.html). These short structured supervision checklists let a district document and aggregate supervision results the same way it aggregates service data, and see which facilities have not been visited.
+Supervision can be digitized so its findings become data in their own right. The WHO 2022 NCD guidance includes a cross-cutting indicator on the proportion of facilities receiving a supervisory visit, which turns supervision coverage into something a district can monitor. For example, eRDQA (Routine Data Quality Assessment) and DQR-RSC (Data Quality Review Routine Supervision Checklist) are supervision tools implemented in the [DHIS2 Supervision app](https://docs.dhis2.org/en/implement/data-quality/supervision-web.html). These short structured supervision checklists let a district document and aggregate supervision results the same way it aggregates service data, and see which facilities have not been visited.
 
 > **Tip**
 >
@@ -326,7 +323,9 @@ The WHO toolkit describes a four-level platform maturity model:
 3. **Level 3**: digital patient and program monitoring (Tracker).
 4. **Level 4**: full e-registry or EMR.
 
-Most NCD programs are moving from Level 2 toward Levels 3 and 4, which means connecting other data sources to the routine system. DHIS2 is the routine reporting layer within a wider routine health information system (RHIS), and the other sources feed it. At Level 4, multiple EMRs could feed into a national standardized NCD register (for example, in DHIS2 Tracker) in order to calculate routine reports. WHO publishes its own [NCD DHIS2 package and e-registry](https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/patient-programme-monitoring) (toolkit Modules 3 and 4) for countries at Levels 3 and 4.
+Most NCD programs are moving from Level 2 toward Levels 3 and 4, which means connecting other data sources to the routine system. DHIS2 is the routine reporting layer within a wider routine health information system (RHIS), and the other sources feed it. At Level 4, multiple EMRs could feed into a national standardized NCD register (for example, in DHIS2 Tracker) in order to calculate routine reports. 
+
+WHO toolkit Module 1, Fig. 12, sets out a roadmap for moving between these levels at national and subnational level.
 
 ``` mermaid
 graph LR
@@ -335,13 +334,13 @@ graph LR
     L3 --> L4["Level 4<br>E-registry or EMR"]
 ```
 
-WHO toolkit Module 1, Fig. 12, sets out a roadmap for moving between these levels at national and subnational level.
+
 
 ### Setting Realistic Expectations for Interoperability { #ncd_routine_data_use_interoperability }
 
-In HISP's Tracker implementations, we have often found it extremely difficult to design for "full interoperability between systems" without an established base of high-quality routine data and strong governance for sharing patient-level data. In its own experience with digitalized NCD registries, Resolve to Save Lives has found interoperability is "rarely achieved in full", and thus recommends a pragmatic approach: the first priority for NCD programs is to ensure digital registries store data in a standardized, documented format so it can feed a national DHIS2 dashboard \[[RTSL digital tools playbook](https://resolvetosavelives.org/resources/optimal-digital-tool/)\].
+In HISP's Tracker implementations, we have often found it extremely difficult to design for "full interoperability between systems" without an established base of high-quality routine data and strong governance for sharing patient-level data. In its own experience with digitalized NCD registries, [Resolve to Save Lives has found](https://resolvetosavelives.org/resources/optimal-digital-tool/) interoperability is "rarely achieved in full", and thus recommends a pragmatic approach: the first priority for NCD programs is to ensure digital registries store data in a standardized, documented format so it can feed a national DHIS2 dashboard.
 
-Of course, many contexts are already at Level 3 or Level 4 for their NCD platforms, and plan for a broader digital architecture. [Sri Lanka's Diabetes Compass implementation](https://dhis2.org/fighting-ncds-in-malawi-and-sri-lanka-with-the-diabetes-compass-project/) connects multiple digital tools across community, hospital, and clinic settings using shared standards. Guided by the national digital health blueprint, the Ministry of Health selected OpenSRP, a FHIR-native app, to manage patient interactions across household screening, hospital Healthy Lifestyle Centers, and follow-up medical clinics. Data captured with the OpenSRP Android FHIR SDK is sent to a central FHIR repository that connects to other EMRs and systems, including DHIS2 for downstream aggregate monitoring and dashboards.
+Of course, many contexts are already at Level 3 or Level 4 for their NCD platforms, and plan for a broader digital architecture. [Sri Lanka's Diabetes Compass implementation](https://dhis2.org/fighting-ncds-in-malawi-and-sri-lanka-with-the-diabetes-compass-project/) connects multiple digital tools across community, hospital, and clinic settings using shared standards. Guided by the national digital health blueprint, the Sri Lanka Ministry of Health selected OpenSRP, a FHIR-native app, to manage patient interactions across household screening, hospital Healthy Lifestyle Centers, and follow-up medical clinics. Data captured with the OpenSRP Android FHIR SDK is sent to a central FHIR repository that connects to other EMRs and systems, including DHIS2 for downstream aggregate monitoring and dashboards.
 
 ### Mapping EMR and Community Data to Indicators { #ncd_routine_data_use_mapping }
 
@@ -360,7 +359,7 @@ graph LR
 
 ### How Countries Have Connected Other Sources { #ncd_routine_data_use_country_examples }
 
-The webinar and search evidence show this expansion at different stages.
+HISPs findings shgow that in 2026, countries are at different stages of extending NCD data systems beyond HMIS reporting.
 
 | Country | Routine layer | Other sources connected (or planned) |
 | :--- | :--- | :--- |
@@ -378,13 +377,11 @@ The [Africa CDC guidance](https://africacdc.org/download/guidance-for-strengthen
 
 Leadership to advance stronger routine NCD data is critical; in an Africa CDC reivew of NCD surveillance 10 African Union member states, the lowest assessed level of maturity was both strategic direction and data quality.
 
-![Africa CDC NCD Guidance, Figure 2](resources\images\du_afcdc_assess.png)
+![Africa CDC NCD Guidance, Figure 2](resources/images/du_afcdc_assess.pngdu_afcdc_assess.png)
 
 In Ghana, a regulatory policy requires private providers to submit data directly into DHIS2, with license non-renewal for non-compliance. This addresses the inconsistent private and rural reporting, which has previously been identified by HISP Ghana as a key gap.
 
-A **unique patient identifier** is the cornerstone to several of these gains. In Malawi, matching screened people to diagnosed people through a unique ID reduced both over- and under-estimation in detection-rate indicators.
-
-Building such a connected web of patient-level NCD data brings **privacy obligations** with it.
+A **unique patient identifier** is the cornerstone to several of these gains. In Malawi, matching screened people to diagnosed people through a unique ID reduced both over- and under-estimation in detection-rate indicators. But building such a connected web of patient-level NCD data brings **privacy obligations** with it.
 
 The [World Bank primer](https://openknowledge.worldbank.org/entities/publication/7755ce0b-42f8-4b24-a03c-15f5ba55a291) lists the data privacy govnernance decisions a ministry needs to make:
 
