@@ -8350,55 +8350,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "JftDO8AfOWl"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "KhPN2jLt52I"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IAN26jYXb2N"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "ao1214Ogahb"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "UxuWtQQ4Gs1"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "joYVieLjxKQ"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "HXqTCEzwwWz"
+                        "id": "fbRyJBZGHTI"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8414,7 +8366,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "KXgYGZRacnQ"
+                        "id": "ao1214Ogahb"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8430,7 +8382,23 @@
                 },
                 {
                     "dataElement": {
-                        "id": "fbRyJBZGHTI"
+                        "id": "joYVieLjxKQ"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "UxuWtQQ4Gs1"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "KXgYGZRacnQ"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8446,6 +8414,22 @@
                 },
                 {
                     "dataElement": {
+                        "id": "tYPFFIxHwj4"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "HXqTCEzwwWz"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "lRY6tKmJN4K"
                     },
                     "dataSet": {
@@ -8454,7 +8438,23 @@
                 },
                 {
                     "dataElement": {
-                        "id": "tYPFFIxHwj4"
+                        "id": "IAN26jYXb2N"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "KhPN2jLt52I"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "JftDO8AfOWl"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8587,7 +8587,15 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "gSDfAwhzLxm"
+                        "id": "WqkLLu6UwLy"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "wiUtvIfdc6r"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8603,7 +8611,15 @@
                 },
                 {
                     "dataElement": {
-                        "id": "WqkLLu6UwLy"
+                        "id": "gSDfAwhzLxm"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vY1DeFo6AcP"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8627,23 +8643,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "vY1DeFo6AcP"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "PNZzRdOuXeN"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "wiUtvIfdc6r"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8707,14 +8707,6 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "iRgb6hOfzEk"
-                    },
-                    "dataSet": {
-                        "id": "ebvMd3I0fkd"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "X0pBiQ6SN5O"
                     },
                     "dataSet": {
@@ -8723,7 +8715,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "xZ07XCMF85u"
+                        "id": "egxDywfI0DV"
                     },
                     "dataSet": {
                         "id": "ebvMd3I0fkd"
@@ -8731,7 +8723,15 @@
                 },
                 {
                     "dataElement": {
-                        "id": "egxDywfI0DV"
+                        "id": "iRgb6hOfzEk"
+                    },
+                    "dataSet": {
+                        "id": "ebvMd3I0fkd"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "xZ07XCMF85u"
                     },
                     "dataSet": {
                         "id": "ebvMd3I0fkd"
@@ -8792,23 +8792,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "mJv7u3C8w46"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "OhgHrhV8MGZ"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "UCzcgZfL9Pw"
+                        "id": "SZZd6dY0qRn"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8832,15 +8816,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "GL4tv58GtWB"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "SZZd6dY0qRn"
+                        "id": "UCzcgZfL9Pw"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8849,6 +8825,14 @@
                 {
                     "dataElement": {
                         "id": "ChIb461qMBC"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "mJv7u3C8w46"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8865,6 +8849,22 @@
                 {
                     "dataElement": {
                         "id": "MGWnzMBSVAC"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "OhgHrhV8MGZ"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "GL4tv58GtWB"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -12554,21 +12554,6 @@
             "legends": [
                 {
                     "attributeValues": [],
-                    "color": "#67000d",
-                    "endValue": -75.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "M68Qvionm8q",
-                    "name": "-100 to -75",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -100.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#fb6a4a",
                     "endValue": -10.0,
                     "favorite": false,
@@ -12580,21 +12565,6 @@
                         "users": {}
                     },
                     "startValue": -25.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#a50f15",
-                    "endValue": -50.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "Zz9KK2Hq24W",
-                    "name": "-75 to -50",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -75.0,
                     "translations": []
                 },
                 {
@@ -12629,36 +12599,6 @@
                 },
                 {
                     "attributeValues": [],
-                    "color": "#fcbba1",
-                    "endValue": 0.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "CU3loqsf50o",
-                    "name": "-10 to 0",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": -10.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
-                    "color": "#31a354",
-                    "endValue": 75.0,
-                    "favorite": false,
-                    "favorites": [],
-                    "id": "FXkMay3dHsu",
-                    "name": "50 to 75",
-                    "sharing": {
-                        "userGroups": {},
-                        "users": {}
-                    },
-                    "startValue": 50.0,
-                    "translations": []
-                },
-                {
-                    "attributeValues": [],
                     "color": "#de2d26",
                     "endValue": -25.0,
                     "favorite": false,
@@ -12685,6 +12625,66 @@
                         "users": {}
                     },
                     "startValue": 75.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#67000d",
+                    "endValue": -75.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "M68Qvionm8q",
+                    "name": "-100 to -75",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -100.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#a50f15",
+                    "endValue": -50.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "Zz9KK2Hq24W",
+                    "name": "-75 to -50",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -75.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#fcbba1",
+                    "endValue": 0.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "CU3loqsf50o",
+                    "name": "-10 to 0",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": -10.0,
+                    "translations": []
+                },
+                {
+                    "attributeValues": [],
+                    "color": "#31a354",
+                    "endValue": 75.0,
+                    "favorite": false,
+                    "favorites": [],
+                    "id": "FXkMay3dHsu",
+                    "name": "50 to 75",
+                    "sharing": {
+                        "userGroups": {},
+                        "users": {}
+                    },
+                    "startValue": 50.0,
                     "translations": []
                 },
                 {
@@ -14945,7 +14945,7 @@
         "description": "Hypertension and Diabetes Tracker",
         "healthAreaCode": "NCD",
         "healthAreaName": "Non-Communicable Diseases",
-        "lastUpdated": "20261110T104308",
+        "lastUpdated": "20261110T104634",
         "locale": "en",
         "name": "NCD_HDM_TRK_DHIS2.42.7.1-en",
         "type": "TRK",
@@ -18708,6 +18708,7 @@
             "decimals": 0,
             "displayInForm": true,
             "expression": "V{event_count}",
+            "filter": "V{program_stage_id} == 'anb2cjLx3WM' && V{event_status} != 'SCHEDULE' && V{event_status} != 'SKIPPED'",
             "id": "wodvj4fzKEH",
             "legendSets": [],
             "name": "HTN - Total patient visits",
@@ -18783,8 +18784,9 @@
             },
             "categoryMappingIds": [],
             "decimals": 0,
-            "displayInForm": true,
+            "displayInForm": false,
             "expression": "V{event_count}",
+            "filter": "V{program_stage_id} == 'anb2cjLx3WM' && V{event_status} != 'SCHEDULE' && V{event_status} != 'SKIPPED'",
             "id": "SzRkoeYZEE5",
             "legendSets": [],
             "name": "HTN - Total patient visits II",
@@ -19259,6 +19261,17 @@
             "translations": []
         },
         {
+            "content": "Latest BP: ",
+            "data": "d2:concatenate(#{lastSystolicBP},'/',#{lastDiastolicBP})",
+            "id": "BKhA0sHy4Rw",
+            "location": "feedback",
+            "programRule": {
+                "id": "G3mmWXPoplk"
+            },
+            "programRuleActionType": "DISPLAYTEXT",
+            "translations": []
+        },
+        {
             "data": "V{event_date}",
             "dataElement": {
                 "id": "xAjCjRXyGGS"
@@ -19451,17 +19464,6 @@
                 "id": "ob9EeB0fQiO"
             },
             "programRuleActionType": "HIDEFIELD",
-            "translations": []
-        },
-        {
-            "content": "My BP : ",
-            "data": "d2:concatenate(#{systolicBP},'/',#{diastolicBP})",
-            "id": "OU4RRHGolAV",
-            "location": "feedback",
-            "programRule": {
-                "id": "po7TIPEsktK"
-            },
-            "programRuleActionType": "DISPLAYTEXT",
             "translations": []
         },
         {
@@ -20688,6 +20690,40 @@
         },
         {
             "dataElement": {
+                "id": "yNhtHKtKkO1"
+            },
+            "id": "cOmwl8C5SzL",
+            "name": "lastDiastolicBP",
+            "program": {
+                "id": "pMIglSEqPGS"
+            },
+            "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE",
+            "programStage": {
+                "id": "anb2cjLx3WM"
+            },
+            "translations": [],
+            "useCodeForOptionSet": false,
+            "valueType": "NUMBER"
+        },
+        {
+            "dataElement": {
+                "id": "IxEwYiq1FTq"
+            },
+            "id": "BiFtCQbzTkB",
+            "name": "lastSystolicBP",
+            "program": {
+                "id": "pMIglSEqPGS"
+            },
+            "programRuleVariableSourceType": "DATAELEMENT_NEWEST_EVENT_PROGRAM_STAGE",
+            "programStage": {
+                "id": "anb2cjLx3WM"
+            },
+            "translations": [],
+            "useCodeForOptionSet": false,
+            "valueType": "NUMBER"
+        },
+        {
+            "dataElement": {
                 "id": "eGY7e5Ttbys"
             },
             "id": "HzIKJPl71jf",
@@ -21436,9 +21472,6 @@
                     "id": "Cgw6VPdj1Nt"
                 },
                 {
-                    "id": "OU4RRHGolAV"
-                },
-                {
                     "id": "IjrSAJU1R7l"
                 },
                 {
@@ -21446,6 +21479,22 @@
                 },
                 {
                     "id": "leF83953ErO"
+                }
+            ],
+            "translations": []
+        },
+        {
+            "condition": "d2:hasValue(#{lastSystolicBP}) && d2:hasValue(#{lastDiastolicBP})",
+            "description": "Shows the BP of the latest visit on the patient dashboard. Uses newest-event variables so it also works outside an event (replaces the 'My BP' action of 'Show feedback').",
+            "id": "G3mmWXPoplk",
+            "name": "Show feedback: latest BP",
+            "priority": 15,
+            "program": {
+                "id": "pMIglSEqPGS"
+            },
+            "programRuleActions": [
+                {
+                    "id": "BKhA0sHy4Rw"
                 }
             ],
             "translations": []
