@@ -1,0 +1,232 @@
+{
+ "programIndicatorGroups": [
+  {
+   "id": "GoP3Y38aICc",
+   "code": "NCD_HDM_HTN",
+   "name": "NCD_HDM - HTN program indicators",
+   "description": "Hypertension program indicators in the NCD_HDM package (name prefix 'HTN - ').",
+   "programIndicators": [
+    {
+     "id": "FImPPMxfE98"
+    },
+    {
+     "id": "EWpkCPCuJf3"
+    },
+    {
+     "id": "lsUw32leiJX"
+    },
+    {
+     "id": "nJq8IMv65H7"
+    },
+    {
+     "id": "IsHB0SRSa0M"
+    },
+    {
+     "id": "JycuigrwOA0"
+    },
+    {
+     "id": "w1OIAqhocAx"
+    },
+    {
+     "id": "bLiMzdg6ZHz"
+    },
+    {
+     "id": "ApG3MF1VmOL"
+    },
+    {
+     "id": "kqKZiGQ5DW6"
+    },
+    {
+     "id": "HEhrrdabdGQ"
+    },
+    {
+     "id": "oViVMFZbHsC"
+    },
+    {
+     "id": "AoqqjFOJGmS"
+    },
+    {
+     "id": "qi9pE262Xhm"
+    },
+    {
+     "id": "M4XY1lxHewG"
+    },
+    {
+     "id": "rDI98qauCo6"
+    },
+    {
+     "id": "ZOEEN8WKTFa"
+    },
+    {
+     "id": "wodvj4fzKEH"
+    },
+    {
+     "id": "SzRkoeYZEE5"
+    },
+    {
+     "id": "Sf86A1bYyMq"
+    }
+   ],
+   "sharing": {
+    "external": false,
+    "users": {},
+    "public": "r-------",
+    "userGroups": {
+     "YC7GXhPDxy5": {
+      "id": "YC7GXhPDxy5",
+      "access": "rw------"
+     },
+     "olcsnfUYf3r": {
+      "id": "olcsnfUYf3r",
+      "access": "r-------"
+     },
+     "wMfsgxzN9nt": {
+      "id": "wMfsgxzN9nt",
+      "access": "r-------"
+     }
+    }
+   },
+   "attributeValues": [],
+   "translations": []
+  },
+  {
+   "id": "VvNaVAZeuKr",
+   "code": "NCD_HDM_DM",
+   "name": "NCD_HDM - DM program indicators",
+   "description": "Diabetes program indicators in the NCD_HDM package (name prefix 'DM - ').",
+   "programIndicators": [
+    {
+     "id": "rrWB0we6eFL"
+    },
+    {
+     "id": "KDBhJiMyq19"
+    },
+    {
+     "id": "i1b1YVeexfC"
+    },
+    {
+     "id": "GuVvSdUEUjS"
+    },
+    {
+     "id": "lMwCpljoplx"
+    },
+    {
+     "id": "im5CJlcxual"
+    },
+    {
+     "id": "rjBIKw5Ydpb"
+    },
+    {
+     "id": "gcF8RPHPzrG"
+    },
+    {
+     "id": "fNGOfOPo2p6"
+    },
+    {
+     "id": "stG4zdvXSmI"
+    },
+    {
+     "id": "rc9nx31qyTL"
+    },
+    {
+     "id": "thoTnZfrjsP"
+    },
+    {
+     "id": "vP3OrhwjMHp"
+    },
+    {
+     "id": "zTLkufz2LHb"
+    },
+    {
+     "id": "VfiZtajVST3"
+    },
+    {
+     "id": "gCkPPFQvWVT"
+    },
+    {
+     "id": "zD508XWfDis"
+    },
+    {
+     "id": "iJOng6lGYE6"
+    },
+    {
+     "id": "GEzyNBxdmeD"
+    },
+    {
+     "id": "SMtCq1z3HbK"
+    },
+    {
+     "id": "MKyqwBAX8eo"
+    },
+    {
+     "id": "BzaVlQtRZeq"
+    },
+    {
+     "id": "wZDavE471pe"
+    }
+   ],
+   "sharing": {
+    "external": false,
+    "users": {},
+    "public": "r-------",
+    "userGroups": {
+     "YC7GXhPDxy5": {
+      "id": "YC7GXhPDxy5",
+      "access": "rw------"
+     },
+     "olcsnfUYf3r": {
+      "id": "olcsnfUYf3r",
+      "access": "r-------"
+     },
+     "wMfsgxzN9nt": {
+      "id": "wMfsgxzN9nt",
+      "access": "r-------"
+     }
+    }
+   },
+   "attributeValues": [],
+   "translations": []
+  },
+  {
+   "id": "pzYPQKO8m4f",
+   "code": "NCD_HDM_RECALL",
+   "name": "NCD_HDM - HTN/DM recall",
+   "description": "Program indicators that fill the Hypertension and diabetes recall monthly summary through the aggregate data exchanges.",
+   "programIndicators": [
+    {
+     "id": "ib16ttQey0i"
+    },
+    {
+     "id": "XIcDZVFNlE4"
+    },
+    {
+     "id": "XYCjsED9oDF"
+    },
+    {
+     "id": "HBjkTPFA1MI"
+    }
+   ],
+   "sharing": {
+    "external": false,
+    "users": {},
+    "public": "r-------",
+    "userGroups": {
+     "YC7GXhPDxy5": {
+      "id": "YC7GXhPDxy5",
+      "access": "rw------"
+     },
+     "olcsnfUYf3r": {
+      "id": "olcsnfUYf3r",
+      "access": "r-------"
+     },
+     "wMfsgxzN9nt": {
+      "id": "wMfsgxzN9nt",
+      "access": "r-------"
+     }
+    }
+   },
+   "attributeValues": [],
+   "translations": []
+  }
+ ]
+}

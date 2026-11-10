@@ -1,0 +1,349 @@
+{
+ "programStageWorkingLists": [
+  {
+   "id": "ZAnCTAqEiUH",
+   "code": "NCD_HDM_WL_DUE_TODAY",
+   "name": "Due today",
+   "created": "2026-11-04T01:37:59.679",
+   "lastUpdated": "2026-11-04T01:37:59.679",
+   "translations": [],
+   "createdBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "favorites": [],
+   "lastUpdatedBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "sharing": {
+    "owner": "INklrVzD22r",
+    "external": false,
+    "users": {},
+    "userGroups": {
+     "no2QanpZgiI": {
+      "displayName": "HTN Access",
+      "access": "r-------",
+      "id": "no2QanpZgiI"
+     },
+     "olmLfefTfPQ": {
+      "displayName": "HTN Admin",
+      "access": "rw------",
+      "id": "olmLfefTfPQ"
+     },
+     "qSSuhs65xMP": {
+      "displayName": "HTN Data Capture",
+      "access": "r-------",
+      "id": "qSSuhs65xMP"
+     }
+    },
+    "public": "r-------"
+   },
+   "program": {
+    "id": "pMIglSEqPGS"
+   },
+   "programStage": {
+    "id": "anb2cjLx3WM"
+   },
+   "description": "Scheduled (not yet done) HTN & DM visits with a due date of today; active enrollments; deaths excluded. Overdue visits from earlier days are not included.",
+   "programStageQueryCriteria": {
+    "eventStatus": "SCHEDULE",
+    "eventScheduledAt": {
+     "startBuffer": 0,
+     "endBuffer": 0,
+     "type": "RELATIVE"
+    },
+    "enrollmentStatus": "ACTIVE",
+    "order": "scheduledAt:asc",
+    "displayColumnOrder": [
+     "sB1IHYu2xQT",
+     "ENRjVGxVL6l",
+     "YRDy9xy9jD0",
+     "scheduledAt",
+     "jCRIT4GMMOS",
+     "v4DnYfXn9Mu",
+     "rgeuEnAI0nj",
+     "fI1P3Mg1zOZ"
+    ],
+    "assignedUsers": [],
+    "dataFilters": [],
+    "attributeValueFilters": [
+     {
+      "attribute": "fI1P3Mg1zOZ",
+      "in": [
+       "ACTIVE",
+       "TRANSFER",
+       "INACTIVE"
+      ]
+     }
+    ]
+   },
+   "displayDescription": "Scheduled (not yet done) HTN & DM visits with a due date of today; active enrollments; deaths excluded. Overdue visits from earlier days are not included.",
+   "access": {
+    "manage": true,
+    "externalize": true,
+    "write": true,
+    "read": true,
+    "update": true,
+    "delete": true
+   },
+   "displayName": "Due today",
+   "favorite": false,
+   "user": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "href": "https://metadata.dev.dhis2.org/ncd-tkt/api/programStageWorkingLists/ZAnCTAqEiUH",
+   "attributeValues": []
+  },
+  {
+   "id": "IeE46jqIAYZ",
+   "code": "NCD_HDM_WL_HIGH_RISK_DM",
+   "name": "High-Risk DM",
+   "created": "2026-11-04T01:18:52.180",
+   "lastUpdated": "2026-11-04T01:37:59.682",
+   "translations": [],
+   "createdBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "favorites": [],
+   "lastUpdatedBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "sharing": {
+    "owner": "INklrVzD22r",
+    "external": false,
+    "users": {},
+    "userGroups": {
+     "no2QanpZgiI": {
+      "displayName": "HTN Access",
+      "access": "r-------",
+      "id": "no2QanpZgiI"
+     },
+     "olmLfefTfPQ": {
+      "displayName": "HTN Admin",
+      "access": "rw------",
+      "id": "olmLfefTfPQ"
+     },
+     "qSSuhs65xMP": {
+      "displayName": "HTN Data Capture",
+      "access": "r-------",
+      "id": "qSSuhs65xMP"
+     }
+    },
+    "public": "r-------"
+   },
+   "program": {
+    "id": "pMIglSEqPGS"
+   },
+   "programStage": {
+    "id": "anb2cjLx3WM"
+   },
+   "description": "Visits in the last 90 days with uncontrolled blood sugar (HbA1c >=7%, FBS >=126 mg/dL or >=7 mmol/L) for diabetic patients with a history of heart attack, stroke or kidney disease; enrolled >90 days ago; deaths excluded.",
+   "programStageQueryCriteria": {
+    "eventOccurredAt": {
+     "startBuffer": -90,
+     "endBuffer": 0,
+     "type": "RELATIVE"
+    },
+    "enrollmentStatus": "ACTIVE",
+    "enrolledAt": {
+     "startBuffer": -36500,
+     "endBuffer": -91,
+     "type": "RELATIVE"
+    },
+    "order": "occurredAt:desc",
+    "displayColumnOrder": [
+     "sB1IHYu2xQT",
+     "ENRjVGxVL6l",
+     "YRDy9xy9jD0",
+     "occurredAt",
+     "cE3KOFmoYbZ",
+     "JZlJfx3oihw",
+     "oOHbZP28H2l",
+     "v7nC8vSTzwh",
+     "b2ZNdFZqNbl",
+     "oklF6MuAGaq",
+     "S4Pcuj5Eua7",
+     "bANIHEeQqEZ",
+     "fI1P3Mg1zOZ"
+    ],
+    "assignedUsers": [],
+    "dataFilters": [
+     {
+      "dataItem": "b2ZNdFZqNbl",
+      "in": [
+       "true"
+      ]
+     }
+    ],
+    "attributeValueFilters": [
+     {
+      "attribute": "fI1P3Mg1zOZ",
+      "in": [
+       "ACTIVE",
+       "TRANSFER",
+       "INACTIVE"
+      ]
+     }
+    ]
+   },
+   "displayDescription": "Visits in the last 90 days with uncontrolled blood sugar (HbA1c >=7%, FBS >=126 mg/dL or >=7 mmol/L) for diabetic patients with a history of heart attack, stroke or kidney disease; enrolled >90 days ago; deaths excluded.",
+   "access": {
+    "manage": true,
+    "externalize": true,
+    "write": true,
+    "read": true,
+    "update": true,
+    "delete": true
+   },
+   "displayName": "High-Risk DM",
+   "favorite": false,
+   "user": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "href": "https://metadata.dev.dhis2.org/ncd-tkt/api/programStageWorkingLists/IeE46jqIAYZ",
+   "attributeValues": []
+  },
+  {
+   "id": "mwROwxv5kkJ",
+   "code": "NCD_HDM_WL_HIGH_RISK_HTN",
+   "name": "High-Risk HTN",
+   "created": "2026-11-04T01:18:52.180",
+   "lastUpdated": "2026-11-04T01:37:59.682",
+   "translations": [],
+   "createdBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "favorites": [],
+   "lastUpdatedBy": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "sharing": {
+    "owner": "INklrVzD22r",
+    "external": false,
+    "users": {},
+    "userGroups": {
+     "no2QanpZgiI": {
+      "displayName": "HTN Access",
+      "access": "r-------",
+      "id": "no2QanpZgiI"
+     },
+     "olmLfefTfPQ": {
+      "displayName": "HTN Admin",
+      "access": "rw------",
+      "id": "olmLfefTfPQ"
+     },
+     "qSSuhs65xMP": {
+      "displayName": "HTN Data Capture",
+      "access": "r-------",
+      "id": "qSSuhs65xMP"
+     }
+    },
+    "public": "r-------"
+   },
+   "program": {
+    "id": "pMIglSEqPGS"
+   },
+   "programStage": {
+    "id": "anb2cjLx3WM"
+   },
+   "description": "Visits in the last 90 days with BP >=140/90 for hypertensive patients with a history of heart attack, stroke or kidney disease; enrolled >90 days ago; deaths excluded.",
+   "programStageQueryCriteria": {
+    "eventOccurredAt": {
+     "startBuffer": -90,
+     "endBuffer": 0,
+     "type": "RELATIVE"
+    },
+    "enrollmentStatus": "ACTIVE",
+    "enrolledAt": {
+     "startBuffer": -36500,
+     "endBuffer": -91,
+     "type": "RELATIVE"
+    },
+    "order": "occurredAt:desc",
+    "displayColumnOrder": [
+     "sB1IHYu2xQT",
+     "ENRjVGxVL6l",
+     "YRDy9xy9jD0",
+     "occurredAt",
+     "IxEwYiq1FTq",
+     "yNhtHKtKkO1",
+     "KSp7mw1dU30",
+     "oklF6MuAGaq",
+     "S4Pcuj5Eua7",
+     "bANIHEeQqEZ",
+     "fI1P3Mg1zOZ"
+    ],
+    "assignedUsers": [],
+    "dataFilters": [
+     {
+      "dataItem": "KSp7mw1dU30",
+      "in": [
+       "true"
+      ]
+     }
+    ],
+    "attributeValueFilters": [
+     {
+      "attribute": "fI1P3Mg1zOZ",
+      "in": [
+       "ACTIVE",
+       "TRANSFER",
+       "INACTIVE"
+      ]
+     }
+    ]
+   },
+   "displayDescription": "Visits in the last 90 days with BP >=140/90 for hypertensive patients with a history of heart attack, stroke or kidney disease; enrolled >90 days ago; deaths excluded.",
+   "access": {
+    "manage": true,
+    "externalize": true,
+    "write": true,
+    "read": true,
+    "update": true,
+    "delete": true
+   },
+   "displayName": "High-Risk HTN",
+   "favorite": false,
+   "user": {
+    "id": "INklrVzD22r",
+    "code": null,
+    "name": "Brian O'Donnell",
+    "displayName": "Brian O'Donnell",
+    "username": "brian"
+   },
+   "href": "https://metadata.dev.dhis2.org/ncd-tkt/api/programStageWorkingLists/mwROwxv5kkJ",
+   "attributeValues": []
+  }
+ ]
+}

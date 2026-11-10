@@ -1,0 +1,889 @@
+{
+ "source": "simpledotorg/dhis2-hypertension-package metadata-package/NCD_HTN_TRK_metadata-en.json, package NCD_HTN_TRK_DHIS2.40.5-en",
+ "programIndicators": [
+  {
+   "analyticsPeriodBoundaries": [],
+   "analyticsType": "ENROLLMENT",
+   "attributeValues": [],
+   "displayInForm": true,
+   "expression": "d2:concatenate(A{sB1IHYu2xQT},' ',A{ENRjVGxVL6l},', ',d2:condition('A{oindugucx72} == \"MALE\"','M','F'), ' , ',  d2:yearsBetween( A{NI0QRzJvQ0k}, V{current_date} ))",
+   "id": "rDI98qauCo6",
+   "legendSets": [],
+   "name": "HTN - TEI header (Name, Age, Gender)",
+   "orgUnitField": "OWNER_AT_END",
+   "program": {
+    "id": "pMIglSEqPGS"
+   },
+   "sharing": {
+    "external": false,
+    "owner": "vUeLeQMSwhN",
+    "public": "r-------",
+    "userGroups": {
+     "no2QanpZgiI": {
+      "access": "r-------",
+      "id": "no2QanpZgiI"
+     },
+     "olmLfefTfPQ": {
+      "access": "rw------",
+      "id": "olmLfefTfPQ"
+     },
+     "qSSuhs65xMP": {
+      "access": "r-------",
+      "id": "qSSuhs65xMP"
+     }
+    },
+    "users": {}
+   },
+   "shortName": "TEI header for app",
+   "translations": []
+  }
+ ],
+ "programRuleActions": [
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "Ae9S7Bqbncj",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "data": "'ACTIVE'",
+   "id": "AyYQHW9FdIn",
+   "programRule": {
+    "id": "GYmydeVoxDI"
+   },
+   "programRuleActionType": "ASSIGN",
+   "trackedEntityAttribute": {
+    "id": "fI1P3Mg1zOZ"
+   },
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "CSNfZOy32OQ",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "CUwE4YrXkt1",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "NCD patient status",
+   "data": "A{NCD patient status}",
+   "id": "Cgw6VPdj1Nt",
+   "location": "feedback",
+   "programRule": {
+    "id": "po7TIPEsktK"
+   },
+   "programRuleActionType": "DISPLAYTEXT",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "CyRDqZLTC9d",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "DPsbjZffyvu",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "E5x2GPQOtyL",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "EJEwmccDrOF",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "EVwo6wXT1MS",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "GbjjZaUBWf4",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "IHtnQXAGEXe",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Current date - Due date",
+   "data": "d2:daysBetween(V{current_date},V{due_date})",
+   "id": "IjrSAJU1R7l",
+   "location": "feedback",
+   "programRule": {
+    "id": "po7TIPEsktK"
+   },
+   "programRuleActionType": "DISPLAYTEXT",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "It2ggvIa9oU",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "JCekKfwml9U",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "id": "JI8d8zz9kkX",
+   "programRule": {
+    "id": "gBYFbwsM7y4"
+   },
+   "programRuleActionType": "HIDEPROGRAMSTAGE",
+   "programStage": {
+    "id": "W7BCOaSquMd"
+   },
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "L5VLdmsha3Z",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "MsbIRqJmxCM",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "Xjrw5pbxBJw"
+   },
+   "id": "Nv6FsRwQoKO",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "My BP : ",
+   "data": "d2:concatenate(#{systolicBP},'/',#{diastolicBP})",
+   "id": "OU4RRHGolAV",
+   "location": "feedback",
+   "programRule": {
+    "id": "po7TIPEsktK"
+   },
+   "programRuleActionType": "DISPLAYTEXT",
+   "translations": []
+  },
+  {
+   "data": "A{PatientPhoneNumber}",
+   "dataElement": {
+    "id": "ifRI6qw96v4"
+   },
+   "id": "Oe3ZszKONTx",
+   "programRule": {
+    "id": "eKwi8aq1LtK"
+   },
+   "programRuleActionType": "ASSIGN",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "QXNgqfiS6By",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "RHfpHGelP52",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "RMzJogCDtFJ",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "data": "d2:concatenate(d2:round(#{systolicBP}),\"/\",d2:round(#{diastolicBP}))",
+   "dataElement": {
+    "id": "vdh990I4zq1"
+   },
+   "id": "SsRXyN1XtdS",
+   "programRule": {
+    "id": "FiGsf2LZprx"
+   },
+   "programRuleActionType": "ASSIGN",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "TBJ5CEcxV21",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "To4aJ5r1rCe",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Diastolic blood pressure out of range",
+   "dataElement": {
+    "id": "yNhtHKtKkO1"
+   },
+   "id": "V4t7pKAthxP",
+   "programRule": {
+    "id": "b1IKiEP8PJL"
+   },
+   "programRuleActionType": "SHOWERROR",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "VUcLDS7OgIQ",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "WGABHvZCqEj",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "Wy2SQv1hhdu",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "MZkqsWH2KSe"
+   },
+   "id": "Y0xIM9oK2h6",
+   "programRule": {
+    "id": "K7MIf6LoLPj"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "YO4n72ttI6g",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "YUNCsSW5Byy",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "YbwIMqTm6rs",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "YkJgs77YUxc",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "aFTM35BIImL",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "aVc3xpoTcSq",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "bViURZj4554",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "dbD0gLAjBDp",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "ef4kiJgQpGV",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "eySr1BHWnK3",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "id": "fWzUTCpf6Ru",
+   "programRule": {
+    "id": "fizkGhVe8Ln"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "trackedEntityAttribute": {
+    "id": "l5yxkxHgTw9"
+   },
+   "translations": []
+  },
+  {
+   "id": "fu1HtquMPfS",
+   "programRule": {
+    "id": "lowwcME2WBn"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "trackedEntityAttribute": {
+    "id": "Xij8fyJKRX7"
+   },
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "gIHGy30MSIP",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "h0oGOJvQQ7t",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "hXOj4SMIyRW",
+   "programRule": {
+    "id": "LJxIk6WF9W7"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "jHBqOwT12s9",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "#{BloodSugarTypeUnits}",
+   "data": "#{BloodSugarTypeOption}",
+   "dataElement": {
+    "id": "Xjrw5pbxBJw"
+   },
+   "id": "k2ScRiiVkJg",
+   "programRule": {
+    "id": "o69LTdE2Nqo"
+   },
+   "programRuleActionType": "ASSIGN",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "kR1yWFFwC9h",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "kaDBzINHn8r",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "kpzJg8AMQIR",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "lKKCrvAfjkM",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Diastolic blood pressure must be provided",
+   "dataElement": {
+    "id": "yNhtHKtKkO1"
+   },
+   "id": "la3SQT3pIEW",
+   "programRule": {
+    "id": "o6U9TaRVCzE"
+   },
+   "programRuleActionType": "ERRORONCOMPLETE",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "ldNALeGsBWw",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Event Status",
+   "data": "V{event_status}",
+   "id": "leF83953ErO",
+   "location": "feedback",
+   "programRule": {
+    "id": "po7TIPEsktK"
+   },
+   "programRuleActionType": "DISPLAYTEXT",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "mN3xERYLuwP",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Systolic blood pressure out of range",
+   "dataElement": {
+    "id": "IxEwYiq1FTq"
+   },
+   "id": "n2i6rLY5mfB",
+   "programRule": {
+    "id": "DdrELv0vKJ4"
+   },
+   "programRuleActionType": "SHOWERROR",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "pi5s16YcsIJ",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "zgxvIQneRRX"
+   },
+   "id": "pp8c1Jquo97",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "rl6bC7vTgrn",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "tBYF3ktWQeR",
+   "programRule": {
+    "id": "BUTOJ9ZICL9"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Patient Follow-up Status",
+   "data": "A{NCD patient status}",
+   "id": "tZmSz03B4U5",
+   "location": "feedback",
+   "programRule": {
+    "id": "po7TIPEsktK"
+   },
+   "programRuleActionType": "DISPLAYTEXT",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "n6k7wJQ1daN"
+   },
+   "id": "tsY6tbR2VBb",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "u3QW2NM7djB",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "v7nC8vSTzwh"
+   },
+   "id": "uhqxCqnw3Ur",
+   "programRule": {
+    "id": "fqHJkYy5hIe"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "JZlJfx3oihw"
+   },
+   "id": "uiOdpW5xDfU",
+   "programRule": {
+    "id": "PPidutfuWVs"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "LktTflPfk1z"
+   },
+   "id": "v7cLV9IVe0u",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "vDzjD0SyVYB",
+   "programRule": {
+    "id": "whmaK0DnWfw"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "!! Date of Birth Is Out Of Age Range !! Please check Age is between 10-140 years.",
+   "id": "vFOzD42T8Zu",
+   "programRule": {
+    "id": "ChW0u5nSXBo"
+   },
+   "programRuleActionType": "SHOWERROR",
+   "trackedEntityAttribute": {
+    "id": "NI0QRzJvQ0k"
+   },
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "Xjrw5pbxBJw"
+   },
+   "id": "vkUvfJvlFb6",
+   "programRule": {
+    "id": "lpRzBIrj9Hr"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "ywITVJvILBR"
+   },
+   "id": "w8cjL3OyYgY",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "wpucVmsOpOf",
+   "programRule": {
+    "id": "DIsQFmnF3Oa"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "content": "Systolic blood pressure must be provided",
+   "dataElement": {
+    "id": "IxEwYiq1FTq"
+   },
+   "id": "yNc3xvfDzJY",
+   "programRule": {
+    "id": "oQ2AuuptFJ7"
+   },
+   "programRuleActionType": "ERRORONCOMPLETE",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "ySoREjr0MBS",
+   "programRule": {
+    "id": "qelrpgd9GS8"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  },
+  {
+   "dataElement": {
+    "id": "oOHbZP28H2l"
+   },
+   "id": "ykNwTVG9Tdy",
+   "programRule": {
+    "id": "ob9EeB0fQiO"
+   },
+   "programRuleActionType": "HIDEFIELD",
+   "translations": []
+  }
+ ]
+}
