@@ -8350,6 +8350,70 @@
             "dataSetElements": [
                 {
                     "dataElement": {
+                        "id": "lRY6tKmJN4K"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "UxuWtQQ4Gs1"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "tYPFFIxHwj4"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "IAN26jYXb2N"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "HXqTCEzwwWz"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "ao1214Ogahb"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "KXgYGZRacnQ"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "joYVieLjxKQ"
+                    },
+                    "dataSet": {
+                        "id": "pHMm5RpmC31"
+                    }
+                },
+                {
+                    "dataElement": {
                         "id": "fbRyJBZGHTI"
                     },
                     "dataSet": {
@@ -8366,7 +8430,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "ao1214Ogahb"
+                        "id": "JftDO8AfOWl"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8382,30 +8446,6 @@
                 },
                 {
                     "dataElement": {
-                        "id": "joYVieLjxKQ"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "UxuWtQQ4Gs1"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "KXgYGZRacnQ"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "CyhqB3L1Vo8"
                     },
                     "dataSet": {
@@ -8414,47 +8454,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "tYPFFIxHwj4"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "HXqTCEzwwWz"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "lRY6tKmJN4K"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "IAN26jYXb2N"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "KhPN2jLt52I"
-                    },
-                    "dataSet": {
-                        "id": "pHMm5RpmC31"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "JftDO8AfOWl"
                     },
                     "dataSet": {
                         "id": "pHMm5RpmC31"
@@ -8519,7 +8519,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "gsiOBH9eKzb"
+                        "id": "vi3OXLNK0P4"
                     },
                     "dataSet": {
                         "id": "F2GOAtGKg6E"
@@ -8527,7 +8527,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "vi3OXLNK0P4"
+                        "id": "gsiOBH9eKzb"
                     },
                     "dataSet": {
                         "id": "F2GOAtGKg6E"
@@ -8587,7 +8587,23 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "WqkLLu6UwLy"
+                        "id": "aRo6Gr17jXJ"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "vY1DeFo6AcP"
+                    },
+                    "dataSet": {
+                        "id": "JL2GdOKzuyf"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "PNZzRdOuXeN"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8619,15 +8635,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "vY1DeFo6AcP"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "aRo6Gr17jXJ"
+                        "id": "WqkLLu6UwLy"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8636,14 +8644,6 @@
                 {
                     "dataElement": {
                         "id": "PWfoNfjcmhY"
-                    },
-                    "dataSet": {
-                        "id": "JL2GdOKzuyf"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "PNZzRdOuXeN"
                     },
                     "dataSet": {
                         "id": "JL2GdOKzuyf"
@@ -8723,7 +8723,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "iRgb6hOfzEk"
+                        "id": "xZ07XCMF85u"
                     },
                     "dataSet": {
                         "id": "ebvMd3I0fkd"
@@ -8731,7 +8731,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "xZ07XCMF85u"
+                        "id": "iRgb6hOfzEk"
                     },
                     "dataSet": {
                         "id": "ebvMd3I0fkd"
@@ -8792,7 +8792,7 @@
             "dataSetElements": [
                 {
                     "dataElement": {
-                        "id": "SZZd6dY0qRn"
+                        "id": "ChIb461qMBC"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8800,7 +8800,7 @@
                 },
                 {
                     "dataElement": {
-                        "id": "N69Wu2mzoFk"
+                        "id": "OhgHrhV8MGZ"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -8824,14 +8824,6 @@
                 },
                 {
                     "dataElement": {
-                        "id": "ChIb461qMBC"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "mJv7u3C8w46"
                     },
                     "dataSet": {
@@ -8848,23 +8840,31 @@
                 },
                 {
                     "dataElement": {
-                        "id": "MGWnzMBSVAC"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
-                        "id": "OhgHrhV8MGZ"
-                    },
-                    "dataSet": {
-                        "id": "ruV1VUeYUBB"
-                    }
-                },
-                {
-                    "dataElement": {
                         "id": "GL4tv58GtWB"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "N69Wu2mzoFk"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "SZZd6dY0qRn"
+                    },
+                    "dataSet": {
+                        "id": "ruV1VUeYUBB"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "MGWnzMBSVAC"
                     },
                     "dataSet": {
                         "id": "ruV1VUeYUBB"
@@ -14945,7 +14945,7 @@
         "description": "Hypertension and Diabetes Tracker",
         "healthAreaCode": "NCD",
         "healthAreaName": "Non-Communicable Diseases",
-        "lastUpdated": "20261110T104634",
+        "lastUpdated": "20261110T112339",
         "locale": "en",
         "name": "NCD_HDM_TRK_DHIS2.42.7.1-en",
         "type": "TRK",
@@ -19775,6 +19775,17 @@
             "translations": []
         },
         {
+            "id": "h228OT4jDiI",
+            "programRule": {
+                "id": "jlRAKblOoGW"
+            },
+            "programRuleActionType": "HIDESECTION",
+            "programStageSection": {
+                "id": "ZJuP3SPi2Kq"
+            },
+            "translations": []
+        },
+        {
             "data": "true",
             "dataElement": {
                 "id": "b2ZNdFZqNbl"
@@ -19865,17 +19876,6 @@
                 "id": "po7TIPEsktK"
             },
             "programRuleActionType": "DISPLAYTEXT",
-            "translations": []
-        },
-        {
-            "id": "m1KyCKhTqsR",
-            "programRule": {
-                "id": "jlRAKblOoGW"
-            },
-            "programRuleActionType": "HIDESECTION",
-            "programStageSection": {
-                "id": "ZJuP3SPi2Kq"
-            },
             "translations": []
         },
         {
@@ -20906,10 +20906,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "r1zOrPPRctk"
+                    "id": "xS5Fb16DWjJ"
                 },
                 {
-                    "id": "xS5Fb16DWjJ"
+                    "id": "r1zOrPPRctk"
                 }
             ],
             "programStage": {
@@ -21042,10 +21042,10 @@
             },
             "programRuleActions": [
                 {
-                    "id": "Ej2iWGEnLws"
+                    "id": "x4i0KN11xX9"
                 },
                 {
-                    "id": "x4i0KN11xX9"
+                    "id": "Ej2iWGEnLws"
                 }
             ],
             "programStage": {
@@ -21151,7 +21151,7 @@
             "translations": []
         },
         {
-            "condition": "!d2:inUserGroup('olmLfefTfPQ')",
+            "condition": "!d2:inUserGroup('YC7GXhPDxy5')",
             "description": "Section is visible only to members of the HTN Admin user group. Assigned values are kept while hidden.",
             "id": "jlRAKblOoGW",
             "name": "HIDE SECTION: valid readings for users outside the admin group",
@@ -21161,7 +21161,7 @@
             },
             "programRuleActions": [
                 {
-                    "id": "m1KyCKhTqsR"
+                    "id": "h228OT4jDiI"
                 }
             ],
             "programStage": {
