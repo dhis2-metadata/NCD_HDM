@@ -8,6 +8,10 @@ tags:
 
 # Release Note { #ncd-hdm-release-note }
 
+# 1.0.1 { #ncd-hdm-release-note-1-0-1 }
+
+All of 1.0.0 plus minor corrections to aggregate data exchange mappings.
+
 ## 1.0.0 { #ncd-hdm-release-note-1-0-0 }
 
 Initial release of the **Hypertension and Diabetes Management** (NCD_HDM) toolkit for DHIS2 2.42. The toolkit supports routine monitoring of hypertension (HTN) and diabetes mellitus (DM) in health facilities. A country can report the core indicators through monthly aggregate forms, through the HTN/DM Tracker program, or through an electronic medical record (EMR) that sends patient data to the Tracker program. All three paths produce the same indicators. The indicators follow the HEARTS360 definitions and the WHO HEARTS thresholds (blood pressure <140/90 mmHg, HbA1c <7% or fasting blood sugar <126 mg/dL). Dashboards support analysis at facility, district and national levels for:
