@@ -8,7 +8,7 @@ tags:
 
 # Release Note { #ncd-hdm-release-note }
 
-# 1.0.1 { #ncd-hdm-release-note-1-0-1 }
+## 1.0.1 { #ncd-hdm-release-note-1-0-1 }
 
 All of 1.0.0 plus minor corrections to aggregate data exchange mappings.
 
